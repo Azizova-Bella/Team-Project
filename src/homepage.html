@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Page_1</title>
+</head>
+
+<body>
+    <navbar>
+        <div class="bg-custom-pattern bg-cover w-[100%] h-[900px] ">
+
+            <div class="flex items-center justify-center sm:gap-52 md:gap-52">
+                <div class="flex sm:gap-10 md:gap-10 gap-5 text-[gray] h-20 items-center justify-center">
+                    <img src="./img/mlogo.png" alt="">
+                    <select name="" id="pageSelector" class="bg-[#1E212C] text-[gray]" onchange="navigateToPage()">
+                        <option value="" disabled selected>Services</option>
+                        <option value="homepage.html">Page 1</option>
+                        <option value="index2.html">Page 2</option>
+                        <option value="page3.html">Page 3</option>
+                        <option value="page4.html">Page 4</option>
+                        <option value="page5.html">Page 5</option>
+                        <option value="page6.html">Page 6</option>
+                        <option value="page7.html">Page 7</option>
+                        <option value="page8.html">Page 8</option>
+                        <option value="page9.html">Page 9</option>
+                        <option value="page10.html">Page 10</option>
+                    </select>
+                    <script>
+                        function navigateToPage() {
+                            const selector = document.getElementById('pageSelector');
+                            const selectedPage = selector.value;
+                            if (selectedPage) {
+                                window.location.href = selectedPage;
+                            }
+                        }
+                    </script>
+                    <p class="hidden sm:block md:block">Case Studies</p>
+                    <p class="hidden sm:block md:block">About Us</p>
+                    <p class="hidden sm:block md:block">Blog</p>
+                    <p class="hidden sm:block md:block">Contacts</p>
+                </div>
+                <div class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center items-center">
+                    <p>Talk to a human</p>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-center mt-14">
+                <div class="flex flex-col  gap-16 md:gap-20 text-center md:text-left pt-10">
+                    <div>
+                        <p class="text-4xl sm:text-5xl font-semibold text-white">
+                            Best <span class="text-[#7772F1]">SEO & Marketing</span> <br> Solutions for You
+                        </p>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-center gap-10 md:gap-14">
+                        <p
+                            class="border border-gray-200  sm:w-44 w-44 h-10 text-white flex justify-center items-center">
+                            Get a free analysis
+                        </p>
+                        <div class="flex items-center gap-2">
+                            <img src="./img/mhover1.png" alt="" class="w-8 h-8 sm:w-10 sm:h-10">
+                            <p class="text-white">Play video</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-10 md:mt-0">
+                    <img src="./img/millustration (1).png" alt="" class="w-full sm:w-64 md:w-auto">
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-20 mt-10 p-3">
+
+                <div class="flex gap-3 items-center justify-center">
+                    <img src="./img/mic-chart.png" alt="">
+                    <p class="text-white text-[12px] sm:text-[12px] md:text-[14px] lg:text-[14px] hidden lg:block">SEO
+                        Content Strategy</p>
+                </div>
+                <div>
+                    <img src="./img/mdivider (1).png" alt="" class="hidden sm:block">
+                </div>
+                <div class="flex gap-3 items-center justify-center">
+                    <img src="./img/mic-speaker.png" alt="">
+                    <p class="text-white text-[12px] sm:text-[12px] md:text-[14px] lg:text-[14px] hidden lg:block">
+                        Content Marketing</p>
+                </div>
+                <div>
+                    <img src="./img/mdivider (1).png" alt="" class="hidden sm:block">
+                </div>
+
+                <div class="flex gap-3 items-center justify-center">
+                    <img src="./img/mic-computer.png" alt="">
+                    <p class="text-white text-[12px] sm:text-[12px] md:text-[14px] lg:text-[14px] hidden lg:block">
+                        Website & Social Media Marketing</p>
+                </div>
+            </div>
+        </div>
+    </navbar>
+    <header>
+        <div class="flex sm:flex-row flex-col items-center justify-center gap-10 p-3 sm:gap-16 mt-12">
+            <div>
+                <p style="font-weight: 500; font-size: 20px;">Createx SEO Agency is a full-service digital <br>
+                    marketing agency. We help businesses make more <br>
+                    money through a wealth of performance data and <br>
+                    market research. We create science-based SEO <br> strategies to empower our clients.</p>
+            </div>
+            <div class="sm:flex items-center gap-10 ">
+                <div class="flex flex-col justify-center gap-4 sm:gap-4">
+                    <div class="flex items-center gap-2">
+                        <img src="./img/mimage (21).png" alt="">
+                        <p style="font-size: 12px; color: gray;">Top SEO Companies <br> 2020 by Clutch</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="./img/mimage (22).png" alt="">
+                        <p style="font-size: 12px; color: gray;">Top Digital Marketing <br> Agency 2019 by <br> UpCity
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center gap-4 pt-4 sm:pt-0">
+                    <div class="flex items-center gap-2">
+                        <img src="./img/mimage (23).png" alt="">
+                        <p style="font-size: 12px; color: gray;">Official Member 2020 <br> by Forbes Agency <br> Council
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="./img/mimage (24).png" alt="">
+                        <p style="font-size: 12px; color: gray;">Top SEO Companies 2020 <br> by Top <br> Developers
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex sm:flex-row flex-col items-center justify-center gap-2 sm:gap-14 mt-10">
+            <img src="./img/mclient-logo.png" alt="">
+            <img src="./img/mHigher Fit Logo - Untitled Page.png" alt="">
+            <img src="./img/mclient-logo (1).png" alt="">
+            <img src="./img/mclient-logo (2).png" alt="">
+            <img src="./img/mclient-logo (3).png" alt="">
+            <img src="./img/mclient-logo (4).png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="bg-pattern bg-cover w-[100%] h-[500px] ">
+            <div class="flex-col sm:flex sm:flex-row justify-center pt-20 gap-36 p-3">
+                <div class="flex flex-col gap-5 items-center sm:flex-col sm:items-start">
+                    <p style="font-size: 30px; font-weight: 700;">Createx Agency </p>
+                    <p style="font-size: 15px; color: gray;">Lacus ac mollis vitae viverra. Tincidunt est, feugiat <br>
+                        montes, viverra ullamcorper mi dui, nulla pharetra. <br>
+                        Sapien urna nullam elit diam mauris orci. Volutpat <br>
+                        quam tempus justo, aliquam. Tortor ultrices mattis <br>
+                        eget orci eu nisi sed augue odio. Et senectus risus, <br>
+                        pharetra, tristique libero. Dolor risus ac quam <br>
+                        dictum mattis ultrices laoreet sapien. Feugiat <br>
+                        lacus, suscipit eu sociis et quis hendrerit. <br> Cras at ac magna ultricies orci.</p> <br>
+                    <p class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center items-center rounded">More about
+                        us
+                    </p>
+                </div>
+                <div class="pt-5">
+                    <img src="./img/mimage (25).png" alt="" style="width: 500px;">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-wrap justify-center gap-10 mt-72 sm:mt-10 mb-10">
+            <div class="flex flex-col items-center text-center">
+                <img src="./img/mcircle-progress.png" alt="">
+                <p class="text-sm mt-2 text-[gray]">Years of experience</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img src="./img/mcircle-progress (1).png" alt="">
+                <p class="text-sm mt-2 text-[gray]">Awards</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img src="./img/mcircle-progress (2).png" alt="">
+                <p class="text-sm mt-2 text-[gray]">Projects</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img src="./img/mcircle-progress (3).png" alt="">
+                <p class="text-sm mt-2 text-[gray]">100% Happy clients</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div class="text-[30px] font-bold justify-center flex">
+                    <p>Our services</p>
+                </div>
+                <div>
+                    <div class="sm:flex justify-center items-center gap-5 sm:gap-[135px] pt-8 text-[gray]">
+                        <div class="flex sm:gap-[135px] gap-5 justify-center">
+                            <p
+                                style="border: 1px solid gray; width: 140px; height: 30px; text-align: center; padding-top: 4px;">
+                                Social Media</p>
+                            <p>SEO</p>
+                            <p>Research</p>
+                        </div>
+                        <div class="flex sm:gap-[135px] gap-5 justify-center">
+                            <p>Content & PR</p>
+                            <p>Payed Traffic</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
