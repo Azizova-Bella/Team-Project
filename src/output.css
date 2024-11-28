@@ -607,6 +607,10 @@ video {
   height: 645px;
 }
 
+.h-\[40px\] {
+  height: 40px;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -625,6 +629,10 @@ video {
 
 .w-\[40\%\] {
   width: 40%;
+}
+
+.w-\[150px\] {
+  width: 150px;
 }
 
 .max-w-\[1600px\] {
@@ -802,6 +810,11 @@ video {
   background-color: rgb(57 60 70 / var(--tw-bg-opacity, 1));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
 .bg-none {
   background-image: none;
 }
@@ -869,6 +882,11 @@ video {
   padding-bottom: ;
 }
 
+.py-\[80px\] {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .pr-7 {
   padding-right: 1.75rem;
 }
@@ -922,6 +940,10 @@ video {
   font-size: 24px;
 }
 
+.text-\[18px\] {
+  font-size: 18px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -963,6 +985,11 @@ video {
   color: ;
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -984,6 +1011,10 @@ video {
   outline-offset: 2px;
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .hover\:border-\[\#7873EF\]:hover {
   --tw-border-opacity: 1;
   border-color: rgb(120 115 239 / var(--tw-border-opacity, 1));
@@ -992,6 +1023,11 @@ video {
 .hover\:bg-\[\#7873EF\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(120 115 239 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-\[\#7772F1\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(119 114 241 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-\[\#7873EF\]:hover {
@@ -1069,6 +1105,14 @@ video {
     width: 50%;
   }
 
+  .lg\:w-\[40px\] {
+    width: 40px;
+  }
+
+  .lg\:w-\[70\%\] {
+    width: 70%;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1097,6 +1141,10 @@ video {
     justify-content: normal;
   }
 
+  .lg\:justify-center {
+    justify-content: center;
+  }
+
   .lg\:gap-\[20px\] {
     gap: 20px;
   }
@@ -1107,6 +1155,10 @@ video {
 
   .lg\:gap-\[60px\] {
     gap: 60px;
+  }
+
+  .lg\:gap-\[30px\] {
+    gap: 30px;
   }
 
   .lg\:p-5 {
@@ -1143,6 +1195,16 @@ video {
     padding-right: 20px;
   }
 
+  .lg\:px-11 {
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
+  }
+
+  .lg\:py-7 {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+
   .lg\:text-\[28px\] {
     font-size: 28px;
   }
@@ -1161,5 +1223,13 @@ video {
 
   .lg\:text-\[72px\] {
     font-size: 72px;
+  }
+
+  .lg\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .lg\:text-\[20px\] {
+    font-size: 20px;
   }
 }
