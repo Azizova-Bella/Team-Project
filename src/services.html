@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page_2</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <navbar class="">
+        <div class="bg-custom-pattern bg-cover w-[100%] h-[550px]">
+            <div class="flex items-center justify-center sm:gap-52 md:gap-52">
+                <div class="flex sm:gap-10 md:gap-10 gap-5 text-[gray] h-20 items-center justify-center">
+                    <img src="./img/r3.png" alt="">
+                    <select name="" id="pageSelector" class="bg-[#1E212C] text-[gray]" onchange="navigateToPage()">
+                        <option value="" disabled selected>Services</option>
+                        <option value="homepage.html">Page 1</option>
+                        <option value="services.html">Page 2</option>
+                        <option value="page3.html">Page 3</option>
+                        <option value="page4.html">Page 4</option>
+                        <option value="page5.html">Page 5</option>
+                        <option value="page6.html">Page 6</option>
+                        <option value="page7.html">Page 7</option>
+                        <option value="page8.html">Page 8</option>
+                        <option value="page9.html">Page 9</option>
+                        <option value="page10.html">Page 10</option>
+                    </select>
+                    <script>
+                        function navigateToPage() {
+                            const selector = document.getElementById('pageSelector');
+                            const selectedPage = selector.value;
+                            if (selectedPage) {
+                                window.location.href = selectedPage;
+                            }
+                        }
+                    </script>
+                    <p class="hidden sm:block md:block">Case Studies</p>
+                    <p class="hidden sm:block md:block">About Us</p>
+                    <p class="hidden sm:block md:block">Blog</p>
+                    <p class="hidden sm:block md:block">Contacts</p>
+                </div>
+                <div class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center rounded-md items-center">
+                    <p>Talk to a human</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="./img/r2.png" alt="" class=" mt-10">
+                <p class="font-bold text-[50px] text-white my-5">Our services</p>
+                <p class="text-gray-500 text-bold w-[650px] text-center mt-5 ">We offer more than services. Our agency
+                    provides solutions to your top-priority concerns, involving
+                    customer targeting, email performance and sales growth. If there is no existing solution readily
+                    available, we create one, specifically to suit your business.</p>
+            </div>
+            <div class="flex justify-center items-center mt-16 gap-10">
+                <div class="">
+                    <button class="border-2 py-3 px-7 text-white font-bold text-[18px] rounded-md">Start now</button>
+                </div>
+                <div class="flex ">
+                    <img src="./img/r4.png" alt="">
+                    <div class="w-[150px] pl-2">
+                        <p class="text-gray-500">Call us</p>
+                        <p class="text-white">(405) 555-0128</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </navbar>
+    <main class="py-10 px-20 mt-10">
+        <div class="flex gap-10">
+            <div>
+                <p class="font-bold text-[35px]">Social Media Marketing</p>
+                <p class="text-gray-500 w-[630px] mt-3 text-[18px]">Eleifend orci massa et facilisis orci feugiat ac.
+                    Congue
+                    in ut lacus, turpis accumsan gravida. Aliquet mattis dignissim massa sociis a, id bibendum. Egestas
+                    lorem eros, mi cras amet, vel eget molestie. Turpis enim arcu, amet donec massa pellentesque nulla
+                    duis.
+                    Arcu dictum metus sed purus senectus faucibus eget elementum pretium.
+                </p>
+                <div class="flex gap-5 mt-36">
+                    <button
+                        class=" text-[#7772F1] border-[#7772F1] border-2 h-10 py-3 w-36 flex justify-center rounded-md items-center">Learn
+                        more</button>
+                    <button class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center rounded-md items-center">Try
+                        SEO
+                        toolkit </button>
+                </div>
+            </div>
+            <div class="">
+                <img src="./img/r7.png" alt="">
+
+            </div>
+
+        </div>
+        <div class="flex mt-16 gap-10">
+            <div class="">
+                <img src="./img/r8.png" alt="">
+
+            </div>
+            <div>
+                <p class="font-bold text-[35px]">Social Media Marketing</p>
+                <p class="text-gray-500 w-[630px] mt-3 text-[18px]">Eleifend orci massa et facilisis orci feugiat ac.
+                    Congue
+                    in ut lacus, turpis accumsan gravida. Aliquet mattis dignissim massa sociis a, id bibendum. Egestas
+                    lorem eros, mi cras amet, vel eget molestie. Turpis enim arcu, amet donec massa pellentesque nulla
+                    duis.
+                    Arcu dictum metus sed purus senectus faucibus eget elementum pretium.
+                </p>
+                <div class="flex gap-5 mt-36">
+                    <button
+                        class=" text-[#7772F1] border-[#7772F1] border-2 h-10 py-3 w-36 flex justify-center rounded-md items-center">Learn
+                        more</button>
+                    <button class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center rounded-md items-center">Try
+                        SEO
+                        toolkit </button>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="flex gap-10">
+            <div>
+                <p class="font-bold text-[35px]">Social Media Marketing</p>
+                <p class="text-gray-500 w-[630px] mt-3 text-[18px]">Eleifend orci massa et facilisis orci feugiat ac.
+                    Congue
+                    in ut lacus, turpis accumsan gravida. Aliquet mattis dignissim massa sociis a, id bibendum. Egestas
+                    lorem eros, mi cras amet, vel eget molestie. Turpis enim arcu, amet donec massa pellentesque nulla
+                    duis.
+                    Arcu dictum metus sed purus senectus faucibus eget elementum pretium.
+                </p>
+                <div class="flex gap-5 mt-36">
+                    <button
+                        class=" text-[#7772F1] border-[#7772F1] border-2 h-10 py-3 w-36 flex justify-center rounded-md items-center">Learn
+                        more</button>
+                    <button class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center rounded-md items-center">Try
+                        SEO
+                        toolkit </button>
+                </div>
+            </div>
+            <div class="">
+                <img src="./img/r9.png" alt="">
+
+            </div>
+
+        </div>
+        <div class="flex mt-16 gap-10">
+            <div class="">
+                <img src="./img/r10.png" alt="">
+
+            </div>
+            <div>
+                <p class="font-bold text-[35px]">Social Media Marketing</p>
+                <p class="text-gray-500 w-[630px] mt-3 text-[18px]">Eleifend orci massa et facilisis orci feugiat ac.
+                    Congue
+                    in ut lacus, turpis accumsan gravida. Aliquet mattis dignissim massa sociis a, id bibendum. Egestas
+                    lorem eros, mi cras amet, vel eget molestie. Turpis enim arcu, amet donec massa pellentesque nulla
+                    duis.
+                    Arcu dictum metus sed purus senectus faucibus eget elementum pretium.
+                </p>
+                <div class="flex gap-5 mt-36">
+                    <button
+                        class=" text-[#7772F1] border-[#7772F1] border-2 h-10 py-3 w-36 flex justify-center rounded-md items-center">Learn
+                        more</button>
+                    <button class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center rounded-md items-center">Try
+                        SEO
+                        toolkit </button>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="flex gap-10">
+            <div>
+                <p class="font-bold text-[35px]">Social Media Marketing</p>
+                <p class="text-gray-500 w-[630px] mt-3 text-[18px]">Eleifend orci massa et facilisis orci feugiat ac.
+                    Congue
+                    in ut lacus, turpis accumsan gravida. Aliquet mattis dignissim massa sociis a, id bibendum. Egestas
+                    lorem eros, mi cras amet, vel eget molestie. Turpis enim arcu, amet donec massa pellentesque nulla
+                    duis.
+                    Arcu dictum metus sed purus senectus faucibus eget elementum pretium.
+                </p>
+                <div class="flex gap-5 mt-36">
+                    <button
+                        class=" text-[#7772F1] border-[#7772F1] border-2 h-10 py-3 w-36 flex justify-center rounded-md items-center">Learn
+                        more</button>
+                    <button class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center rounded-md items-center">Try
+                        SEO
+                        toolkit </button>
+                </div>
+            </div>
+            <div class="">
+                <img src="./img/r11.png" alt="">
+
+            </div>
+    </main>
+    <section>
+        <div class="bg-[#1E212C] sm:flex justify-center items-center gap-8 py-10 ">
+            <div>
+                <img src="./img/r12.png" alt="">
+            </div>
+            <div class="flex flex-col">
+                <p style="font-weight: bold; font-size: 35px; color: white;">Get a Free SEO Analysis!</p>
+                <div class="flex flex-col"> <br>
+                    <div class="flex gap-[20px]">
+                        <div>
+                            <label for="r1" class="text-white">Name </label> <br> <br>
+                            <input type="text" id="r1" placeholder="Your name"
+                                style="width: 240px; height: 40px; background-color: #FFFFFF1F; border-radius: 5px;">
+                        </div>
+                        <div class="">
+                            <label for="r2" class="text-white">Email</label> <br> <br>
+                            <input type="text" id="r2" placeholder="Your working email"
+                                style="width: 240px; height: 40px; background-color: #FFFFFF1F; border-radius: 5px;">
+                        </div>
+                    </div> <br>
+                    <div>
+                        <div>
+                            <label for="r3" class="text-white">Your website URL</label> <br>
+                            <input type="text" id="r3" placeholder="http://yoursite.com"
+                                style="width: 485px; height: 40px; background-color: #FFFFFF1F; border-radius: 5px;">
+                        </div>
+                    </div> <br>
+                    <div class="flex items-center gap-10">
+                        <div class="flex gap-2 items-center">
+                            <img src="./img/r13.png" alt="">
+                            <p style="color: white; font-size: 14px;">I agree to receive communications from <br>
+                                Createx SEO Agency</p>
+                        </div>
+                        <p
+                            class="bg-[#7772F1] text-[white] h-10  tracking-[1px] flex justify-center items-center font-bold px-5 rounded text-[14px]">
+                            Get a free analysis
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="text-center font-bold text-[35px] mt-10  mb-20 flex justify-center items-center">Markets in which we
+            operate</h1>
+        <div class="flex gap-10  mb-36">
+            <div class="w-[250px] bg-slate-500   text-center">
+              <img src="./img/r14.png" alt="" class="m-auto">
+              <p class="font-bold text-center text-[22px]">E-commerce Websites</p>
+              <p>Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris. </p>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
