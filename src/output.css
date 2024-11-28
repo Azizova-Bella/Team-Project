@@ -740,6 +740,11 @@ video {
   background-color: rgb(244 245 246 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[gray\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(128 128 128 / var(--tw-bg-opacity, 1));
+}
+
 .bg-transparent {
   background-color: transparent;
 }
@@ -747,6 +752,21 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#424752\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(66 71 82 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#424751\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(66 71 81 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#424753\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(66 71 83 / var(--tw-bg-opacity, 1));
 }
 
 .bg-none {
@@ -794,6 +814,21 @@ video {
 .py-\[50px\] {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-\[50px\] {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.px-\[100px\] {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .pr-7 {
@@ -951,8 +986,12 @@ video {
     width: auto;
   }
 
-  .lg\:w-80 {
-    width: 20rem;
+  .lg\:w-\[\] {
+    width: ;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
   }
 
   .lg\:grid-cols-2 {
@@ -1022,11 +1061,11 @@ video {
     font-size: 46px;
   }
 
-  .lg\:text-\[72px\] {
-    font-size: 72px;
-  }
-
   .lg\:text-\[56px\] {
     font-size: 56px;
+  }
+
+  .lg\:text-\[72px\] {
+    font-size: 72px;
   }
 }
