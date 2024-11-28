@@ -1,5 +1,3 @@
-/* ./src/input.css */
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -108,7 +106,9 @@
   --tw-contain-style:  ;
 }
 
-/* ! tailwindcss v3.4.14 | MIT License | https://tailwindcss.com */
+/*
+! tailwindcss v3.4.14 | MIT License | https://tailwindcss.com
+*/
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -558,6 +558,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.ml-\[-25px\] {
+  margin-left: -25px;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -570,12 +574,20 @@ video {
   margin-top: 3.5rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
 
-.mt-72 {
-  margin-top: 18rem;
+.mt-96 {
+  margin-top: 24rem;
+}
+
+.mt-\[-120px\] {
+  margin-top: -120px;
 }
 
 .flex {
@@ -622,8 +634,28 @@ video {
   width: 100%;
 }
 
+.w-\[190px\] {
+  width: 190px;
+}
+
+.w-auto {
+  width: auto;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[36\] {
+  width: 36;
+}
+
+.w-\[44\] {
+  width: 44;
 }
 
 .flex-col {
@@ -632,6 +664,10 @@ video {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -662,6 +698,10 @@ video {
   gap: 0.75rem;
 }
 
+.gap-32 {
+  gap: 8rem;
+}
+
 .gap-36 {
   gap: 9rem;
 }
@@ -674,21 +714,38 @@ video {
   gap: 1.25rem;
 }
 
-.gap-\[135px\] {
-  gap: 135px;
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-\[25px\] {
+  gap: 25px;
 }
 
 .rounded {
   border-radius: 0.25rem;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .border {
   border-width: 1px;
+}
+
+.border-\[\#7772F1\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(119 114 241 / var(--tw-border-opacity));
 }
 
 .border-gray-200 {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
+.border-\[\] {
+  border-color: ;
 }
 
 .bg-\[\#1E212C\] {
@@ -717,12 +774,24 @@ video {
   padding: 0.75rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
 
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .pt-4 {
@@ -748,6 +817,10 @@ video {
 
 .text-\[12px\] {
   font-size: 12px;
+}
+
+.text-\[13px\] {
+  font-size: 13px;
 }
 
 .text-\[30px\] {
@@ -838,6 +911,10 @@ video {
 
   .sm\:gap-16 {
     gap: 4rem;
+  }
+
+  .sm\:gap-20 {
+    gap: 5rem;
   }
 
   .sm\:gap-4 {
