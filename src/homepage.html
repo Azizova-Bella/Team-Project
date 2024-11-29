@@ -13,7 +13,7 @@
         <div class="bg-custom-pattern bg-cover w-[100%] h-[900px] ">
 
             <div class="flex items-center justify-center sm:gap-52 md:gap-52">
-                <div class="flex sm:gap-10 md:gap-10 gap-10 text-[gray] h-20 items-center justify-center">
+                <div class="flex sm:gap-10 md:gap-10 gap-5 text-[gray] h-20 items-center justify-center">
                     <img src="./img/mlogo.png" alt="">
                     <select name="" id="pageSelector" class="bg-[#1E212C] text-[gray]" onchange="navigateToPage()">
                         <option value="" disabled selected>Services</option>
@@ -22,8 +22,8 @@
                         <option value="page3.html">Page 3</option>
                         <option value="page4.html">Page 4</option>
                         <option value="page5.html">Page 5</option>
-                        <option value="page6.html">Page 6</option>
-                        <option value="page7.html">Page 7</option>
+                        <option value="aboutus.html">Page 6</option>
+                        <option value="page6.html">Page 7</option>
                         <option value="page8.html">Page 8</option>
                         <option value="page9.html">Page 9</option>
                         <option value="page10.html">Page 10</option>
@@ -483,18 +483,27 @@
                 </div>
             </div>
         </div>
-        <div>
+        <style>
+            .bg1 {
+                background-image: url(./img/mVector.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 500px;
+            }
+        </style>
+        <div class="bg1">
             <div class="flex justify-center mt-16">
                 <p style="font-size: 35px; font-weight: 600;">What our clients say</p>
             </div>
-            <div class="flex flex-col items-center gap-5 sm:flex-row sm:justify-center sm:items-center sm:gap-32">
+            <div class="flex flex-col items-center gap-5 sm:flex-row sm:justify-center sm:items-center sm:gap-32"
+                style="padding-top: 100px;">
                 <div>
                     <img src="./img/mprev-btn.png" alt="">
                 </div>
                 <div>
-                    <div>
-                        <div class="flex items-center gap-5 mt-10">
-                            <img src="./img/mbraces.png" alt="" class="mt-[10px]">
+                    <div class="border border-gray-250 w-auto bg-[white]">
+                        <div class="flex flex-col items-center gap-5 mt-10 p-3 sm:flex-row sm:justify-center">
+                            <img src="./img/mbraces.png" alt="" style="padding-bottom: 90px;">
                             <p style="color: gray; font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit. Justo, amet lectus quam <br>
                                 viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis
@@ -503,9 +512,9 @@
                                 <br>
                                 neque pharetra arcu diam maecenas diam integer in.
                             </p>
-                        </div> <br>
-                        <div class="flex gap-3 items-center">
-                            <img src="./img/mimage.png" alt="">
+                        </div>
+                        <div class="flex gap-3 items-center p-3">
+                            <img src="./img/mimage.png" alt="" style="padding-left: 45px;">
                             <div>
                                 <p style="font-weight: 500;">Courtney Alexander</p>
                                 <p style="color: gray; font-size: 14px;">Position, Company name</p>
@@ -518,6 +527,128 @@
                 </div>
             </div>
         </div>
+        <div class="flex flex-col sm:flex-row sm:justify-center gap-5 mt-52 p-3  ">
+            <div class="flex flex-col gap-5 items-center justify-center">
+                <p style="font-size: 30px;">Latest news</p>
+                <p style="color: gray; font-size: 15px;">Check more posts in our blog for <br> featured news and
+                    advertising <br> insights</p>
+                <p
+                    style="background-color: #7772F1; width: 120px; color: white; height: 30px; border-radius: 5px; text-align: center; padding-top: 4px;">
+                    Go to blog</p>
+            </div> <br>
+            <div class="flex items-start gap-5 justify-center">
+                <div>
+                    <img src="./img/mpic.png" alt="">
+                    <div class="flex items-center gap-4 text-[gray]">
+                        <p>SEO</p>
+                        <img src="./img/mdivider5.png" alt="">
+                        <img src="./img/mClock.png" alt="">
+                        <p>July 5, 2020</p>
+                        <img src="./img/mdivider5.png" alt="">
+                        <img src="./img/mProfile.png" alt="">
+                        <p>By Diane Mccoy</p>
+                    </div> <br> <br> <br> <br>
+                    <div>
+                        <img src="./img/mread-more.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-start gap-5 justify-center">
+                <div class="flex flex-col items-start ">
+                    <img src="./img/mpic1.png" alt="">
+                    <div class="flex items-center gap-3 text-[gray]">
+                        <p>Marketing</p>
+                        <img src="./img/mdivider5.png" alt="">
+                        <img src="./img/mClock.png" alt="">
+                        <p>July 2, 2020</p>
+                        <img src="./img/mdivider5.png" alt="">
+                        <img src="./img/mProfile.png" alt="">
+                        <p>By Diane Mccoy</p>
+                    </div> <br>
+                    <div class="flex flex-col items-start gap-5 justify-center">
+                        <p style="font-weight: 500; ">The Basics of Blogging Search Engine <br> Optimization.</p>
+                        <p style="font-size: 15px; color: gray;">Mauris tincidunt sollicitudin tristique odio eget <br>
+                            volutpat. Fringilla viverra amet, mi interdum blandit...</p>
+                        <img src="./img/mread-more.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-[#1E212C] pt-10">
+            <div class="flex flex-col items-start justify-center gap-8 p-3 sm:flex-row ">
+                <div class="flex flex-col items-start gap-3 p-10">
+                    <img src="./img/mlogo.png" alt="">
+                    <P style=" color: gray; font-size: 13px;">Createx SEO Agency is a full-service digital marketing
+                        <br>
+                        agency. We help businesses make more money <br>
+                        through a wealth of performance data and market research. <br>
+                        We create science-based SEO strategies to empower our <br> clients.</P>
+                    <div class="flex items-center gap-4">
+                        <img src="./img/mFacebook.png" alt="">
+                        <img src="./img/mLinked-In.png" alt="">
+                        <img src="./img/mTwitter.png" alt="">
+                        <img src="./img/mInstagram.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <p style="font-size: 17px; color: white;">COMPANY</p>
+                    <p style="color: gray; font-size: 15px;">About Us</p>
+                    <p style="color: gray; font-size: 15px;">Case Studies</p>
+                    <p style="color: gray; font-size: 15px;">Blog</p>
+                    <p style="color: gray; font-size: 15px;">Careers</p>
+                    <p style="color: gray; font-size: 15px;">Contacts</p>
+                </div>
+                <div>
+                    <p style="font-size: 17px; color: white;">SERVICES</p>
+                    <p style="color: gray; font-size: 15px;">Social Media</p>
+                    <p style="color: gray; font-size: 15px;">SEO</p>
+                    <p style="color: gray; font-size: 15px;">Research</p>
+                    <p style="color: gray; font-size: 15px;">Payed Traffic</p>
+                    <p style="color: gray; font-size: 15px;">Payed Traffic</p>
+                </div>
+                <div>
+                    <p style="font-size: 17px; color: white;">CONTACT US</p>
+                    <div class="flex items-center gap-1">
+                        <img src="./img/miPhone.png" alt="">
+                        <p style="color: gray; font-size: 15px;">(405) 555-0128</p>
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <img src="./img/mMail.png" alt="">
+                        <p style="color: gray; font-size: 15px;">hello@createx.com</p>
+                    </div>
+                </div>
+                <div>
+                    <p style="font-size: 17px; color: white;">SIGN UP TO OUR NEWSLETTER</p>
+                    <div class="flex items-center gap-4 bg-[#FFFFFF33] w-52">
+                        <input type="text" name="" id="" class="bg-[#FFFFFF33]">
+                        <img src="./img/mRight.png" alt="">
+                    </div>
+                    <p style="font-size: 15px; color: gray;">*Subscribe to our newsletter to receive communications and
+                        early <br> updates from Createx SEO Agency.</p>
+                </div>
+
+            </div>
+            <div style="padding-top: 20px;">
+                <img src="./img/mdivider22.png" alt="">
+                <div class="flex flex-col justify-center sm:gap-20 sm:flex p-3 sm:flex-row sm:items-center" style="padding-top: 20px;">
+                    <div class="flex flex-col items-start gap-2 p-3 sm:flex-row sm:items-center">
+                        <img src="./img/maward.png" alt="">
+                        <img src="./img/maward1.png" alt="">
+                        <img src="./img/maward2.png" alt="">
+                        <img src="./img/maward3.png" alt="">
+                    </div>
+                    <div class="flex gap-2">
+                        <p style="color: white;">GO TO TOP</p>
+                        <img src="./img/mup-btn.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flex text-[white] items-center bg-[#232121] p-10 h-10 justify-center">
+                <p>© All rights reserved.Made with</p>
+                <img src="./img/mHeart.png" alt="">
+                <p>by Createx Studio </p>
+            </div>
+        </footer>
     </main>
 </body>
 
