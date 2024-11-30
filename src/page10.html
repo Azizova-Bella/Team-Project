@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page10</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    <header class="head">
+        <div class="flex items-center justify-center sm:gap-52 md:gap-52">
+            <div class="flex sm:gap-10 md:gap-10 gap-5 text-[gray] h-20 items-center justify-center">
+                <img src="./img/alogo.png" alt="">
+                <select name="" id="pageSelector" class="bg-[#1E212C] text-[gray]" onchange="navigateToPage()">
+                    <option value="" disabled selected>Services</option>
+                    <option value="homepage.html">Page 1</option>
+                    <option value="index2.html">Page 2</option>
+                    <option value="page3.html">Page 3</option>
+                    <option value="page4.html">Page 4</option>
+                    <option value="page5.html">Page 5</option>
+                    <option value="page6.html">Page 6</option>
+                    <option value="page7.html">Page 7</option>
+                    <option value="page8.html">Page 8</option>
+                    <option value="page9.html">Page 9</option>
+                    <option value="page10.html">Page 10</option>
+                </select>
+                <script>
+                    function navigateToPage() {
+                        const selector = document.getElementById('pageSelector');
+                        const selectedPage = selector.value;
+                        if (selectedPage) {
+                            window.location.href = selectedPage;
+                        }
+                    }
+                </script>
+                <p class="hidden sm:block md:block">Case Studies</p>
+                <p class="hidden sm:block md:block">About Us</p>
+                <p class="hidden sm:block md:block">Blog</p>
+                <p class="hidden sm:block md:block">Contacts</p>
+            </div>
+            <div class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center items-center rounded-[7px]">
+                <p>Talk to a human</p>
+            </div>
+        </div>
+
+        <div class="flex gap-[10px] items-center justify-center py-[20px]">
+            <img class="w-[20px] h-[20px]" src="./img/Home.png" alt="">
+            <p class="text-[gray]">>  blog</p>
+        </div>
+        <div class="flex flex-col items-center gap-[14px]">
+            <h1 class="text-[white] text-[40px] font-bold">Contacts</h1>
+            <div class="flex-col px-[30px] hidden lg:flex lg:flex-row gap-[10px] items-center">
+                <div class="w-[300px] flex  gap-[10px] ">
+                <img class="w-[40px] h-[40px]" src="./img/outline.png" alt="">
+                    <div class="w-[200px]">
+                        <p class="text-[gray]">Visit us</p>
+                        <p class="text-[white]">2464 Royal Ln. Mesa, New Jersey 45463, USA </p>
+                            <p class="text-[blue]">See on the map</p>
+                    </div>
+                </div>
+                <div class="w-[300px] flex  gap-[10px]">
+                    <img class="w-[40px] h-[40px]" src="./img/iPhone (1).png" alt="">
+                        <div class="w-[200px]">
+                            <p class="text-[gray]">Call us</p>
+                            <p class="text-[white]">(405) 555-0128 <br> (603) 555-0123 </p>
+                            
+                        </div>
+                    </div>
+                    <div class="w-[300px] flex  gap-[10px]">
+                        <img class="w-[40px] h-[40px]" src="./img/Chat.png" alt="">
+                            <div class="w-[200px]">
+                                <p class="text-[gray]">Talk to us</p>
+                                <p class="text-[white]">hello@createx.com</p>
+                                    
+                            </div>
+                        </div>
+                        <div class="w-[300px] flex  gap-[10px]">
+                            <img class="w-[40px] h-[40px]" src="./img/Clok.png" alt="">
+                                <div class="w-[200px]">
+                                    <p class="text-[gray]">Working Hours</p>
+                                    <p class="text-[white]">Mon-Fri: 9 am — 6 pm <br>Sat-Sun: days off</p>
+                                       
+                                </div>
+                            </div>
+            </div>
+        </div>
+        
+    </header>
+<div class="flex-col lg:flex-row flex justify-center gap-[30px] p-[20px]">
+
+
+    <div class="flex flex-col gap-[20px] lg:w-[601px]  ">
+        <h1 class="font-bold text-[30px] lg:text-[50px]">Ready to get started?</h1>
+        <div>
+            <p>Services</p>
+            <div class="flex gap-[20px] flex-col lg:flex-row">
+                <div class="flex  gap-[20px]">
+
+                    <button class="border-[1px] rounded-[5px] border-black w-[110px]">Social Media</button>
+                    <button class="border-[1px] rounded-[5px] border-black w-[60px]">SEO</button>
+                </div>
+                <div class="flex flex-row gap-[20px] ">
+
+                    <button class="text-[white] rounded-[5px] bg-blue-700 w-[100px]">Research</button>
+                    <button class="border-[1px] rounded-[5px] border-black w-[117px]">Content & PR</button>
+                    <button class="border-[1px] rounded-[5px] border-black w-[110px]">Payed Traffic</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex-col gap-[20px] lg:flex-row flex ">
+            <div>
+                <p>First Name*</p>
+                <input class="w-[325px] h-[42px] border-[2px] border-gray-600 rounded-[5px]" type="text" placeholder="Your first name">
+            </div>
+            <div>
+                <p>Last Name*</p>
+                <input class="w-[325px] h-[42px] border-[2px] border-gray-600 rounded-[5px]" type="text" placeholder="Your last name">
+            </div>
+        </div>
+        <div class="flex-col gap-[20px] lg:flex-row flex">
+            <div>
+                <p>Email*</p>
+                <input class="w-[325px] h-[42px] border-[2px] border-gray-600 rounded-[5px]" type="text" placeholder="Your working email">
+            </div>
+            <div>
+                <p>Phone*</p>
+                <input class="w-[325px] h-[42px] border-[2px] border-gray-600 rounded-[5px]" type="text" placeholder="Your phone number">
+            </div>
+        </div>
+        <div class="flex-col gap-[20px] lg:flex-row flex">
+            <div>
+                <p>Company</p>
+                <input class="w-[325px] h-[42px] border-[2px] border-gray-600 rounded-[5px]" type="text" placeholder="Your company name">
+            </div>
+            <div>
+                <p>Position</p>
+                <input class="w-[325px] h-[42px] border-[2px] border-gray-600 rounded-[5px]" type="text" placeholder="Your position">
+            </div>
+        </div>
+        <div class="hidden lg:*:block">
+            <p>Approx. budget</p>
+            <img src="./img/range-slider.png" alt="">
+        </div>
+        <div>
+            <p>Additional Details</p>
+            <textarea placeholder="Your message" class="w-[325px] h-[128px] lg:w-[600px] border-[2px] rounded-[5px] border-[#aaaaaa]" name="" id=""></textarea>
+        </div>
+        <div class="flex-col gap-[20px] lg:flex-row flex">
+            <div class="flex gap-[20px] sm:w-[200px]">
+
+                <input type="checkbox">
+                <p class="w-[55%]">I agree to receive communications <br> from Createx SEO Agency</p>
+            </div>
+            <button class="w-[230px] h-[52px] bg-blue-700 text-[white] rounded-[5px]">Request a proposal</button>
+        </div>
+    </div>
+
+    <div>
+
+        <img class="w-[500px]" src="./img/Illustration.png" alt="">
+    </div>
+   
+        
+   
+</div>
+<footer class="bg-[#1E212C] mt-24 pt-10">
+    <div class="flex flex-col items-center lg:flex-row lg:justify-center gap-8">
+        <div class="flex flex-col items-start gap-3 p-10">
+            <img src="./img/alogo.png" alt="">
+            <P style=" color: gray; font-size: 13px;">Createx SEO Agency is a full-service digital marketing
+                <br>
+                agency. We help businesses make more money <br>
+                through a wealth of performance data and market research. <br>
+                We create science-based SEO strategies to empower our <br> clients.
+            </P>
+            <div class="flex items-center gap-4">
+                <img src="./img/Instagram.png" alt="">
+                <img src="./img/Twitter.png" alt="">
+                <img src="./img/Linked-In.png" alt="">
+                <img src="./img/Facebook.png" alt="">
+            </div>
+        </div>
+        <div>
+            <p style="font-size: 17px; color: white;">COMPANY</p>
+            <p style="color: gray; font-size: 15px;">About Us</p>
+            <p style="color: gray; font-size: 15px;">Case Studies</p>
+            <p style="color: gray; font-size: 15px;">Blog</p>
+            <p style="color: gray; font-size: 15px;">Careers</p>
+            <p style="color: gray; font-size: 15px;">Contacts</p>
+        </div>
+        <div>
+            <p style="font-size: 17px; color: white;">SERVICES</p>
+            <p style="color: gray; font-size: 15px;">Social Media</p>
+            <p style="color: gray; font-size: 15px;">SEO</p>
+            <p style="color: gray; font-size: 15px;">Research</p>
+            <p style="color: gray; font-size: 15px;">Payed Traffic</p>
+            <p style="color: gray; font-size: 15px;">Payed Traffic</p>
+        </div>
+        <div>
+            <p style="font-size: 17px; color: white;">CONTACT US</p>
+            <div class="flex items-center gap-1">
+                <img src="./img/iPhone (2).png" alt="">
+                <p style="color: gray; font-size: 15px;">(405) 555-0128</p>
+            </div>
+            <div class="flex items-center gap-1">
+                <img src="./img/Mail.png" alt="">
+                <p style="color: gray; font-size: 15px;">hello@createx.com</p>
+            </div>
+        </div>
+        <div>
+            <p style="font-size: 17px; color: white;">SIGN UP TO OUR NEWSLETTER</p>
+            <div class="flex items-center gap-4 bg-[#FFFFFF33] w-56 ">
+                <input type="text" name="" id="" class="bg-[#FFFFFF33]">
+                <img src="./img/Right.png" alt="">
+            </div>
+            <p style="font-size: 15px; color: gray;">*Subscribe to our newsletter to receive communications and
+                early <br> updates from Createx SEO Agency.</p>
+        </div>
+
+
+    </div>
+    <div style="padding-top: 20px;">
+        <img src="./img/r47.png" alt="">
+        <div class="flex justify-around gap-20" style="padding-top: 20px;">
+            <div class="flex flex-col items-center justify-center lg:flex-row gap-2 ">
+                <img src="./img/award.png" alt="">
+                <img src="./img/award (1).png" alt="">
+                <img src="./img/award (2).png" alt="">
+                <img src="./img/award (3).png" alt="">
+            </div>
+            <div class="flex gap-2 items-center">
+                <p style="color: white;">GO TO TOP</p>
+                <img src="./img/up-btn.png" alt="" class="hidden lg:block">
+            </div>
+        </div>
+    </div>
+    <div class="flex text-[white] pl-10 items-center gap-5 lg:pl-[120px] bg-[#292C37] mt-7 p-3 ">
+        <p>© All rights reserved.Made with</p>
+        <img src="./img/Vector (Stroke).png" alt="">
+        <p>by Createx Studio </p>
+    </div>
+</footer>
+
+    
+</body>
+</html>

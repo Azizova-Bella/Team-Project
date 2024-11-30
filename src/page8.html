@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page8</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    
+    <header class="head">
+  <div class="flex items-center justify-center sm:gap-52 md:gap-52">
+                <div class="flex sm:gap-10 md:gap-10 gap-5 text-[gray] h-20 items-center justify-center">
+                    <img src="./img/alogo.png" alt="">
+                    <select name="" id="pageSelector" class="bg-[#1E212C] text-[gray]" onchange="navigateToPage()">
+                        <option value="" disabled selected>Services</option>
+                        <option value="homepage.html">Page 1</option>
+                        <option value="index2.html">Page 2</option>
+                        <option value="page3.html">Page 3</option>
+                        <option value="page4.html">Page 4</option>
+                        <option value="page5.html">Page 5</option>
+                        <option value="page6.html">Page 6</option>
+                        <option value="page7.html">Page 7</option>
+                        <option value="page8.html">Page 8</option>
+                        <option value="page9.html">Page 9</option>
+                        <option value="page10.html">Page 10</option>
+                    </select>
+                    <script>
+                        function navigateToPage() {
+                            const selector = document.getElementById('pageSelector');
+                            const selectedPage = selector.value;
+                            if (selectedPage) {
+                                window.location.href = selectedPage;
+                            }
+                        }
+                    </script>
+                    <p class="hidden sm:block md:block">Case Studies</p>
+                    <p class="hidden sm:block md:block">About Us</p>
+                    <p class="hidden sm:block md:block">Blog</p>
+                    <p class="hidden sm:block md:block">Contacts</p>
+                </div>
+                <div class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center items-center">
+                    <p>Talk to a human</p>
+                </div>
+            </div>
+
+        <div class="flex gap-[10px] items-center justify-center py-[20px] sm:text-[10px]">
+            <img class="w-[20px] h-[20px]" src="./img/Home.png" alt="">
+            <p class="text-[gray]">>  blog</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <h1 class="text-[white] text-[40px] font-bold">Blog</h1>
+            <p class="w-[600px] text-center text-[gray]">Thoughts, trends and up-to-date news in search and digital marketing. Subsribe to our blog and receive latest news weekly.</p>
+        </div>
+        <form action="" class="flex justify-center py-[40px]">
+            <input class="w-[300px] h-[30px] rounded-[3px]" type="text" placeholder="Search the blog">
+            <input class="w-[100px] h-[30px]    bg-slate-900 text-[white]" type="submit" placeholder="Search">
+        </form>
+    </header>
+
+
+    <div class="flex-col  lg:flex-row flex  px-[10px] justify-center">
+        <div class=" lg:w-[600px] w-[100%] p-[20px] ">
+            <img class="w-[500px] h-[360px]" src="./img/img1.png" alt="">
+            <div class="flex items-center gap-[20px] text-[gray]">
+                <p>SEO  |</p>
+                <img class="w-[20px] h-[20px]" src="./img/Clock (2).png" alt="">
+                <p>July 5, 2020  |</p>
+                <img src="./img/Profile.png" alt="">
+                <p>By Diane Mccoy</p>
+            </div>
+            <p class="font-bold text-[20px]">How to Maximize Your ROI Through Scientific SEM?</p>
+            <p class="font-bold items-center">Read more  <span class="text-[blue] text-[20px]"> -></span></p>
+        </div>
+        <div class="lg:w-[600px] w-full p-[20px]">
+            <img class="w-[500px] h-[360px]" src="./img/img2.png" alt="">
+            <div class="flex items-center gap-[20px] text-[gray]">
+                <p>Marketing  |</p>
+                <img class="w-[20px] h-[20px]" src="./img/Clock (2).png" alt="">
+                <p>July 2, 2020  |</p>
+                <img src="./img/Profile.png" alt="">
+                <p>By Diane Mccoy</p>
+            </div>
+            <p class="font-bold text-[20px]">The Basics of Blogging Search Engine Optimization.</p>
+            <p class="font-bold items-center">Read more  <span class="text-[blue] text-[20px]"> -></span></p>
+        </div>
+    </div>
+
+
+
+<div class=" lg:justify-center flex p-[20px] ">
+    <div class="p-[40px] sm:justify-center ">
+        <div class="flex-col lg:flex-row flex ">
+               <div class="flex flex-col gap-[10px] w-[390px]">
+                   <img class="w-[310px] h-[200px]" src="./img/pic.png" alt="">
+                   <div class="flex items-center gap-[6px] text-[gray] w-[360px] text-[14px]">
+                       <p>Marketing |</p>
+                       <img class="w-[20px] h-[20px]" src="./img/Clock (2).png" alt="">
+                       <p>July 5, 2020  |</p>
+                       <img src="./img/Profile.png" alt="">
+                       <p>By Soham Alexa</p>
+                   </div>
+                   <p class="font-bold w-[300px] text-[15px]">Digital Marketing Game: What You Need to Know to Stay Ahead?</p>
+                   <p class="text-[gray] w-[300px] text-[12px]">Nunc nulla vestibulum nunc quam arcu tristique convallis. Posuere augue pellentesque mauris gravida...</p>
+                   <p class="font-bold items-center">Read more  <span class="text-[blue] text-[20px]">&rarr;</span></p>
+               </div>
+               <div class="flex flex-col gap-[10px] w-[390px]">
+                <img class="w-[310px] h-[200px]" src="./img/pic1.png" alt="">
+                <div class="flex items-center gap-[5px] text-[gray] w-[360px] text-[14px]">
+                    <p>Ad Tips |</p>
+                    <img class="w-[20px] h-[20px]" src="./img/Clock (2).png" alt="">
+                    <p>June 6, 2020 |</p>
+                    <img src="./img/Profile.png" alt="">
+                    <p>By Shawn Edwards</p>
+                </div>
+                <p class="font-bold w-[300px] text-[15px]">How to Evaluate and Compare Social Media Tools Today.</p>
+                <p class="text-[gray] w-[300px] text-[12px]">Eu donec pellentesque et aliquet. Fringilla morbi etiam turpis nisl nunc, quis sagittis ut. Pulvinar amet vitae..</p>
+                <p class="font-bold items-center">Read more  <span class="text-[blue] text-[20px] "> &rarr;</span></p>
+            </div>
+           </div>
+           <div class="flex-col lg:flex-row flex ">
+            <div class="flex flex-col gap-[10px] w-[390px]">
+                <img class="w-[300px] h-[200px]" src="./img/pic2.png" alt="">
+                <div class="flex items-center gap-[5px] text-[gray] w-[360px] text-[14px]">
+                    <p>SEO  |</p>
+                    <img class="w-[20px] h-[20px]" src="./img/Clock (2).png" alt="">
+                    <p>May 1, 2020  |</p>
+                    <img src="./img/Profile.png" alt="">
+                    <p>By Diane Mccoy</p>
+                </div>
+                <p class="font-bold w-[300px] text-[15px]">The Best Practices to Optimize Your Website for Mobile.</p>
+                <p class="text-[gray] w-[300px] text-[12px]">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
+                <p class="font-bold items-center">Read more  <span class="text-[blue] text-[20px]"> &rarr;</span></p>
+            </div>
+            <div class="flex flex-col gap-[10px] w-[390px]">
+             <img class="w-[300px] h-[200px]" src="./img/pic3.png" alt="">
+             <div class="flex items-center gap-[5px] text-[gray] w-[360px] text-">
+                 <p>SEO  |</p>
+                 <img class="w-[20px] h-[20px]" src="./img/Clock (2).png" alt="">
+                 <p>July 5, 2020  |</p>
+                 <img src="./img/Profile.png" alt="">
+                 <p>By Diane Mccoy</p>
+             </div>
+             <p class="font-bold w-[300px] text-[15px]">10 Seriously Underused Paid Search Strategies.</p>
+             <p class="text-[gray] w-[300px] text-[12px]">Euismod congue faucibus diam etiam diam netus vitae ornare vitae. Cursus sollicitudin posuere venenatis...</p>
+             <p class="font-bold items-center">Read more  <span class="text-[blue] text-[20px]">&rarr;</span></p>
+         </div>
+        </div>
+        <div class="flex-col lg:flex-row flex">
+            <div class="flex flex-col gap-[10px] w-[390px]">
+                <img class="w-[300px] h-[200px]" src="./img/pic4.png" alt="">
+                <div class="flex items-center gap-[5px] text-[gray] w-[360px] text-">
+                    <p>Media & Press  |</p>
+                    <img class="w-[20px] h-[20px]" src="./img/Clock (2).png" alt="">
+                    <p>June 3, 2020 |</p>
+                    <img src="./img/Profile.png" alt="">
+                    <p>By Shawn Edwards</p>
+                </div>
+                <p class="font-bold w-[300px] text-[15px]">How to Create Content That Gets Linked and Shared.</p>
+                <p class="text-[gray] w-[300px] text-[12px]">Eu donec pellentesque et aliquet. Fringilla morbi etiam turpis nisl nunc, quis sagittis ut. Pulvinar amet vitae..</p>
+                <p class="font-bold items-center">Read more  <span class="text-[blue] text-[20px]"> &rarr;</span></p>
+            </div>
+            <div class="flex flex-col gap-[10px] w-[390px]">
+             <img class="w-[300px] h-[200px]" src="./img/pic5.png" alt="">
+             <div class="flex items-center gap-[5px] text-[gray] w-[360px] text-">
+                 <p>SEO  |</p>
+                 <img class="w-[20px] h-[20px]" src="./img/Clock (2).png" alt="">
+                 <p>July 5, 2020  |</p>
+                 <img src="./img/Profile.png" alt="">
+                 <p>By Diane Mccoy</p>
+             </div>
+             <p class="font-bold w-[300px] text-[15px]">12 Simple Tips to Creating an Effective Ad.</p>
+             <p class="text-[gray] w-[300px] text-[12px]">Imperdiet risus consectetur dignissim lorem sollicitudin eget bibendum pellentesque nec. Adipiscing viverra in non euismod. Amet nulla aliquam nulla magna...</p>
+             <p class="font-bold items-center">Read more  <span class="text-[blue] text-[20px]"> &rarr;</span></p>
+         </div>
+        </div>
+       
+    </div>
+     
+
+    <div class="sm:block hidden">
+        <h1 class="font-bold">Blog Categories</h1>
+        <div>
+            <div class="flex justify-between">
+                <h1 class="font-bold">All</h1>
+                <p>25 </p>
+            </div>
+            <div class="flex justify-between">
+                <h1 class="font-bold">Media & Press</h1>
+                <p>3 </p>
+            </div>
+            <div class="flex justify-between">
+                <h1 class="font-bold">Ad Tips</h1>
+                <p>7 </p>
+            </div>
+            <div class="flex justify-between text-blue-500">
+                <h1 class="font-bold">Marketing</h1>
+                <p>4 </p>
+            </div>
+            <div class="flex justify-between">
+                <h1 class="font-bold">SEO</h1>
+                <p>9 </p>
+            </div>
+            <div class="flex justify-between">
+                <h1 class="font-bold">Paid Search</h1>
+                <p>2 </p>
+            </div>
+        </div>
+        <p class="font-bold py-[20px] text-[30px]">Now Trending</p>
+        <div class="flex flex-col gap-[40px]">
+    
+       
+        <div class="flex gap-[12px] w-[342px]">
+            <img class="w-[100px] h-[100px]" src="./img/image (1).png" alt="">
+            <div>
+                <div class="flex gap-[10px] items-center">
+                    <img class="h-[20px]" src="./img/Clock (2).png" alt="">
+                    <p class="text-[gray]">July 5, 2020</p>
+                </div>
+                <p class="font-bold text-[14px]">5 Surprising Ways to Combine Content Marketing with PPC</p>
+            </div>
+        </div>
+        <div class="flex gap-[12px] w-[342px]">
+            <img class="w-[100px] h-[100px]" src="./img/image (2).png" alt="">
+            <div>
+                <div class="flex gap-[12px] items-center">
+                    <img class="h-[20px]" src="./img/Clock (2).png" alt="">
+                    <p class="text-[gray]">April 9, 2020</p>
+                </div>
+                <p class="font-bold text-[15px]">Why SEO Is All About Content Marketing?</p>
+            </div>
+        </div>
+        <div class="flex gap-[12px] w-[342px]">
+            <img class="w-[100px] h-[100px]" src="./img/image (3).png" alt="">
+            <div>
+                <div class="flex gap-[10px]">
+                    <img class="h-[20px]" src="./img/Clock (2).png" alt="">
+                    <p class="text-[gray]">March 12, 2020</p>
+                </div>
+                <p class="font-bold text-[14px]">10 tips for a small business digital marketing strategy</p>
+            </div>
+        </div>
+         </div>
+    </div>
+    
+   
+</div>
+<p class="px-[140px]"><span class="text-[blue]"> 1</span> 2 3 4  Next &rarr;</p>
+
+
+
+
+<div class="flex-col p-[20px] lg:flex-row flex items-center justify-center">
+    <div class="sm:p-[30px]">
+        <h1 class="font-bold text-[30px]">Subsribe to our blog</h1>
+        <p class="text-[gray] text-[20px]">And receive latest trends in search, marketing, digital and news.</p>
+        <div class="md:p-[20px]">
+            <p>Email</p>
+            <div class="w-[320px] border-[2px] border-gray-600 flex rounded-[10px] justify-between ">
+                <input class="w-[200px] h-[30px] rounded-[8px]" type="text" placeholder="Your working email">
+                <button class="w-[100px] bg-blue-700 text-[white] rounded-[8px]">Subscribe</button>
+            </div>
+        </div>
+        <div class="flex gap-[10px]">
+
+            <input type="checkbox">
+            <p>I agree to receive communications from Createx SEO Agency</p>
+        </div>
+
+    </div>
+
+    <div>
+
+        <img class="w-[600px]" src="./img/illustration (1).png" alt="">
+    </div>
+</div>
+
+
+<footer class="bg-[#1E212C] mt-24 pt-10">
+    <div class="flex flex-col items-center lg:flex-row lg:justify-center gap-8">
+        <div class="flex flex-col items-start gap-3 p-10">
+            <img src="./img/alogo.png" alt="">
+            <P style=" color: gray; font-size: 13px;">Createx SEO Agency is a full-service digital marketing
+                <br>
+                agency. We help businesses make more money <br>
+                through a wealth of performance data and market research. <br>
+                We create science-based SEO strategies to empower our <br> clients.
+            </P>
+            <div class="flex items-center gap-4">
+                <img src="./img/Instagram.png" alt="">
+                <img src="./img/Twitter.png" alt="">
+                <img src="./img/Linked-In.png" alt="">
+                <img src="./img/Facebook.png" alt="">
+            </div>
+        </div>
+        <div>
+            <p style="font-size: 17px; color: white;">COMPANY</p>
+            <p style="color: gray; font-size: 15px;">About Us</p>
+            <p style="color: gray; font-size: 15px;">Case Studies</p>
+            <p style="color: gray; font-size: 15px;">Blog</p>
+            <p style="color: gray; font-size: 15px;">Careers</p>
+            <p style="color: gray; font-size: 15px;">Contacts</p>
+        </div>
+        <div>
+            <p style="font-size: 17px; color: white;">SERVICES</p>
+            <p style="color: gray; font-size: 15px;">Social Media</p>
+            <p style="color: gray; font-size: 15px;">SEO</p>
+            <p style="color: gray; font-size: 15px;">Research</p>
+            <p style="color: gray; font-size: 15px;">Payed Traffic</p>
+            <p style="color: gray; font-size: 15px;">Payed Traffic</p>
+        </div>
+        <div>
+            <p style="font-size: 17px; color: white;">CONTACT US</p>
+            <div class="flex items-center gap-1">
+                <img src="./img/iPhone (2).png" alt="">
+                <p style="color: gray; font-size: 15px;">(405) 555-0128</p>
+            </div>
+            <div class="flex items-center gap-1">
+                <img src="./img/Mail.png" alt="">
+                <p style="color: gray; font-size: 15px;">hello@createx.com</p>
+            </div>
+        </div>
+        <div>
+            <p style="font-size: 17px; color: white;">SIGN UP TO OUR NEWSLETTER</p>
+            <div class="flex items-center gap-4 bg-[#FFFFFF33] w-56 ">
+                <input type="text" name="" id="" class="bg-[#FFFFFF33]">
+                <img src="./img/Right.png" alt="">
+            </div>
+            <p style="font-size: 15px; color: gray;">*Subscribe to our newsletter to receive communications and
+                early <br> updates from Createx SEO Agency.</p>
+        </div>
+
+
+    </div>
+    <div style="padding-top: 20px;">
+        <img src="./img/r47.png" alt="">
+        <div class="flex justify-around gap-20" style="padding-top: 20px;">
+            <div class="flex flex-col items-center justify-center lg:flex-row gap-2 ">
+                <img src="./img/award.png" alt="">
+                <img src="./img/award (1).png" alt="">
+                <img src="./img/award (2).png" alt="">
+                <img src="./img/award (3).png" alt="">
+            </div>
+            <div class="flex gap-2 items-center">
+                <p style="color: white;">GO TO TOP</p>
+                <img src="./img/up-btn.png" alt="" class="hidden lg:block">
+            </div>
+        </div>
+    </div>
+    <div class="flex text-[white] pl-10 items-center gap-5 lg:pl-[120px] bg-[#292C37] mt-7 p-3 ">
+        <p>© All rights reserved.Made with</p>
+        <img src="./img/Vector (Stroke).png" alt="">
+        <p>by Createx Studio </p>
+    </div>
+</footer>
+
+
+  
+
+</body>
+</html>
