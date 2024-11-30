@@ -8,19 +8,38 @@
     <link rel="stylesheet" href="/src/output.css">
 </head>
 
-<body>
+<body class="max-w-[1600px] m-auto">
     <img class=" lg:block h-[400px]" src="./image/image (36).png" alt="">
     <div class="p-3 bg-gray-400 relative -top-[400px] flex justify-around">
         <div>
             <img src="image/Y1.png" alt="">
         </div>
-        <div class="hidden gap-10 lg:flex gap-x-10">
-            <p>Services</p>
-            <p>Case Studies</p>
-            <p>About Us</p>
-            <p>Blog</p>
-            <p>Contacts</p>
-        </div>
+        <select name="" id="pageSelector" class="bg-transparent text-[gray]" onchange="navigateToPage()">
+            <option value="" disabled selected>Services</option>
+            <option value="../homepage.html">Page 1</option>
+            <option value="../services.html">Page 2</option>
+            <option value="../service.html">Page 3</option>
+            <option value="../page4/page4.html">Page 4</option>
+            <option value="../case_study.html">Page 5</option>
+            <option value="../aboutus.html">Page 6</option>
+            <option value="../page7.html">Page 7</option>
+            <option value="../page8.html">Page 8</option>
+            <option value="../page9/page9.html">Page 9</option>
+            <option value="../page10.html">Page 10</option>
+        </select>
+        <script>
+            function navigateToPage() {
+                const selector = document.getElementById('pageSelector');
+                const selectedPage = selector.value;
+                if (selectedPage) {
+                    window.location.href = selectedPage;
+                }
+            }
+        </script>
+        <p class="hidden sm:block md:block">Case Studies</p>
+        <p class="hidden sm:block md:block">About Us</p>
+        <p class="hidden sm:block md:block">Blog</p>
+        <p class="hidden sm:block md:block">Contacts</p>
         <div>
             <p>Talk to a human</p>
         </div>
@@ -84,6 +103,77 @@
                 <span class="inline-block bg-gray-400 ml-5  text-sm px-3 py-2 rounded-lg">#targeting</span>
             </div>
         </main>
+    </div>
+    <div class="text-center lg: bg-gray-900 text-gray-100">
+        <footer class="bg-gray-800 py-12">
+          <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+              <div>
+                <h3 class="text-2xl font-bold text-white mb-4">CREATE<span class="text-indigo-500">X</span></h3>
+                <p class="text-gray-400 text-sm">
+                  Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through performance data and research.
+                </p>
+                <div class="flex space-x-4 mt-4">
+                  <a href="#" class="text-gray-400 ">
+                    <i class="fab fa-facebook"></i> Facebook
+                  </a>
+                  <a href="#" class="text-gray-400 ">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                  </a>
+                  <a href="#" class="text-gray-400 ">
+                    <i class="fab fa-twitter"></i> Twitter
+                  </a>
+                  <a href="#" class="text-gray-400 ">
+                    <i class="fab fa-instagram"></i> Instagram
+                  </a>
+                </div>
+              </div>
+              <div>
+                <h4 class="text-lg font-semibold text-white mb-4">Company</h4>
+                <ul class="space-y-2">
+                  <li><a href="#" class="text-gray-400 ">About Us</a></li>
+                  <li><a href="#" class="text-gray-400 ">Case Studies</a></li>
+                  <li><a href="#" class="text-gray-400 ">Blog</a></li>
+                  <li><a href="#" class="text-gray-400 ">Careers</a></li>
+                  <li><a href="#" class="text-gray-400 ">Contacts</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="text-lg font-semibold text-white mb-4">Services</h4>
+                <ul class="space-y-2">
+                  <li><a href="#" class="text-gray-400 ">Social Media</a></li>
+                  <li><a href="#" class="text-gray-400 ">SEO</a></li>
+                  <li><a href="#" class="text-gray-400 ">Research</a></li>
+                  <li><a href="#" class="text-gray-400 ">Content & PR</a></li>
+                  <li><a href="#" class="text-gray-400 ">Paid Traffic</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="text-lg font-semibold text-white mb-4">Contact Us</h4>
+                <p class="text-gray-400 text-sm mb-2">
+                  <i class="fas fa-phone-alt"></i> (405) 555-0128
+                </p>
+                <p class="text-gray-400 text-sm mb-4">
+                  <i class="fas fa-envelope"></i> hello@createx.com
+                </p>
+                <h4 class="text-lg font-semibold text-white mb-2">Sign up to our newsletter</h4>
+                <form class="flex space-x-2">
+                  <input type="email" placeholder="Your email" class="bg-gray-700 text-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                  <button type="submit" class="bg-indigo-600 text-white px-4 py-2 rounded-lg ">
+                    →
+                  </button>
+                </form>
+                <p class="text-gray-400 text-xs mt-2">
+                  *Subscribe to our newsletter to receive communications and updates.
+                </p>
+              </div>
+            </div>
+            <div class="mt-12 border-t border-gray-700 pt-6 flex justify-between items-center">
+              <p class="text-gray-400 text-sm">© All rights reserved. Made with <span class="text-red-500">❤</span> by Createx Studio</p>
+              <a href="#" class="bg-indigo-600 text-white px-4 py-2 rounded-lg ">Go to top</a>
+            </div>
+          </div>
+        </footer>
     </div>
 </body>
 

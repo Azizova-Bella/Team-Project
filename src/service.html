@@ -12,24 +12,34 @@
 	<navbar class="flex flex-col items-center gap-[80px] lg:h-[500px] h-[645px] lg:p-5 p-2"
 		style="background-image: url(/img/z2.png); background-size: 100% 100%;">
 		<div class="flex justify-between w-[100%]">
-			<div class="flex justify-between items-center lg:gap-[60px] gap-[10px]">
+			<div class="flex justify-between items-center lg:gap-[60px] gap-[10px] text-[gray]">
 				<img src="/img/z1.png" alt="">
-				<ul class="flex items-center gap-[20px] text-[gray]">
-					<li class="hover:text-white">
-						<select class="select select__right bg-[#212337] text-white outline-none"
-							onchange="window.location.href=this.options[this.selectedIndex].value">
-							<option value="services.html">Services</option>
-							<option value="case_study.html">Case Studies</option>
-							<option value="about.html">Home</option>
-							<option value="blog.html">Home</option>
-							<option value="contacts.html">Home</option>
-						</select>
-					</li>
-					<li class="hover:text-white hidden lg:flex"><a class="font-semibold" href="case_study.html">Case Studies</a></li>
-					<li class="hover:text-white hidden lg:flex"><a class="font-semibold" href="about.html">About Us</a></li>
-					<li class="hover:text-white hidden lg:flex"><a class="font-semibold" href="blog.html">Blog</a></li>
-					<li class="hover:text-white hidden lg:flex"><a class="font-semibold" href="contacts.html">Contacts</a></li>
-				</ul>
+				<select name="" id="pageSelector" class="bg-[#1E212C] text-[gray]" onchange="navigateToPage()">
+					<option value="" disabled selected>Services</option>
+					<option value="homepage.html">Page 1</option>
+					<option value="services.html">Page 2</option>
+					<option value="service.html">Page 3</option>
+					<option value="page4/page4.html">Page 4</option>
+					<option value="case_study.html">Page 5</option>
+					<option value="aboutus.html">Page 6</option>
+					<option value="page7.html">Page 7</option>
+					<option value="page8.html">Page 8</option>
+					<option value="page9/page9.html">Page 9</option>
+					<option value="page10.html">Page 10</option>
+				</select>
+				<script>
+					function navigateToPage() {
+						const selector = document.getElementById('pageSelector');
+						const selectedPage = selector.value;
+						if (selectedPage) {
+							window.location.href = selectedPage;
+						}
+					}
+				</script>
+				<p class="hidden sm:block md:block">Case Studies</p>
+				<p class="hidden sm:block md:block">About Us</p>
+				<p class="hidden sm:block md:block">Blog</p>
+				<p class="hidden sm:block md:block">Contacts</p>
 			</div>
 			<button class="text-white bg-[#7772F1] p-2 lg:px-7 rounded-md">Talk to a human</button>
 		</div>
