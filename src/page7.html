@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page7</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <navbar class="">
+        <div class="bg-custom-pattern bg-cover w-[100%] h-[550px]">
+            <div class="flex items-center justify-center sm:gap-52 md:gap-52">
+                <div class="flex sm:gap-10 md:gap-10 gap-5 text-[gray] h-20 items-center justify-center">
+                    <img src="./img/r3.png" alt="">
+                    <select name="" id="pageSelector" class="bg-[#1E212C] text-[gray]" onchange="navigateToPage()">
+                        <option value="" disabled selected>Services</option>
+                        <option value="homepage.html">Page 1</option>
+                        <option value="services.html">Page 2</option>
+                        <option value="page3.html">Page 3</option>
+                        <option value="page4.html">Page 4</option>
+                        <option value="page5.html">Page 5</option>
+                        <option value="page6.html">Page 6</option>
+                        <option value="page7.html">Page 7</option>
+                        <option value="page8.html">Page 8</option>
+                        <option value="page9.html">Page 9</option>
+                        <option value="page10.html">Page 10</option>
+                    </select>
+                    <script>
+                        function navigateToPage() {
+                            const selector = document.getElementById('pageSelector');
+                            const selectedPage = selector.value;
+                            if (selectedPage) {
+                                window.location.href = selectedPage;
+                            }
+                        }
+                    </script>
+                    <p class="hidden sm:block md:block">Case Studies</p>
+                    <p class="hidden sm:block md:block">About Us</p>
+                    <p class="hidden sm:block md:block">Blog</p>
+                    <p class="hidden sm:block md:block">Contacts</p>
+                </div>
+                <div class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center rounded-md items-center">
+                    <p>Talk to a human</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="./img/r2.png" alt="" class=" mt-10">
+                <p class="font-bold text-[50px] text-white my-5">Careers at Createx Agency </p>
+                <p class="text-gray-500 text-bold lg:w-[650px] text-center mt-5 ">We’re looking for extraordinary
+                    talents! If you're passionate about SEO and digital marketing, we want to hear from you.
+                </p>
+            </div>
+            <div class="flex justify-center items-center mt-16 gap-10">
+                <div class="">
+                    <button class="border-2 py-3 px-7 text-white font-bold text-[18px] rounded-md">Start now</button>
+                </div>
+                <div class="flex ">
+                    <img src="./img/r4.png" alt="">
+                    <div class="w-[150px] pl-2">
+                        <p class="text-gray-500">Call us</p>
+                        <p class="text-white">(405) 555-0128</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </navbar>
+    <section class="bg-[#F4F5F6] pt-24 pb-20">
+        <div class="lg:px-20">
+            <div class="flex gap-3 ">
+                <div class="flex items-baseline gap-3">
+                    <img src="./img/r60.png" alt="">
+                    <p class="text-[35px] font-semibold pb-5 ">Digital Marketing Strategist</p>
+                </div>
+                <div class="m-auto">
+                    <button
+                        class=" text-[#7772F1] border-[#7772F1] border-2 h-10 py-3 w-36 flex justify-center rounded-md items-center">Apply
+                        now
+                    </button>
+                </div>
+            </div>
+            <div class="lg:w-[600px] lg:pl-16 pl-5 text-[#424551]">
+                <p>Blandit quam eget fames nisl. Vel vestibulum dictum morbi risus. Mauris dictumst vitae convallis
+                    aliquam ullamcorper. Quis non non ac massa augue id scelerisque. Egestas eget cursus egestas
+                    habitant orci. In posuere tempus, vulputate est, diam arcu.</p>
+                <div class="">
+                    <p class="py-5 ">Requirements:</p>
+                    <ul class=" pl-5 list-disc marker:text-[#7772F1]">
+                        <li>Vitae luctus et arcu vitae eu tellus orci.</li>
+                        <li>Vel morbi nunc ullamcorper nisl, quis varius ultricies blandit.</li>
+                        <li>Purus cursus nascetur leo diam.</li>
+                        <li>Nascetur id turpis facilisis faucibus vel, iaculis etiam.</li>
+                    </ul>
+                    <p class="py-5">Responsibilities:</p>
+                    <ul class="pl-5 list-disc marker:text-[#7772F1]">
+                        <li>Dui, lectus at dui magna vitae vitae egestas sed.</li>
+                        <li>Vulputate placerat amet pulvinar lorem nisl.</li>
+                        <li>Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</li>
+                        <li>Etiam duis lobortis in fames ultrices commodo nibh.</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class=" pl-10 pt-10 flex gap-[320px]">
+                <div class="">
+                    <div class="flex items-baseline gap-6">
+                        <img src="./img/r61.png" alt="">
+                        <p class="lg:text-[28px] text-[20px] font-semibold">Sales Executive</p>
+                    </div>
+                    <div class="flex items-baseline gap-6">
+                        <img src="./img/r61.png" alt="">
+                        <p class="lg:text-[28px] text-[20px] font-semibold">Social Media Content Manager</p>
+                    </div>
+                    <div class="flex items-baseline gap-6">
+                        <img src="./img/r61.png" alt="">
+                        <p class="lg:text-[28px] text-[20px]  font-semibold"> Digital Marketing Account Manager</p>
+                    </div>
+                    <div class="flex items-baseline gap-6">
+                        <img src="./img/r61.png" alt="">
+                        <p class="lg:text-[28px] text-[20px]  font-semibold">SEO Strategist</p>
+                    </div>
+                </div>
+                <div class="hidden lg:block">
+                    <div class="pt-5">
+                        <button
+                            class=" text-[#7772F1] border-[#7772F1] border-2 h-10 py-3 w-36 flex justify-center rounded-md items-center">Apply
+                            now
+                        </button>
+                    </div>
+                    <div class="pt-5">
+                        <button
+                            class=" text-[#7772F1] border-[#7772F1] border-2 h-10 py-3 w-36 flex justify-center rounded-md items-center">Apply
+                            now
+                        </button>
+                    </div>
+                    <div class="pt-5">
+                        <button
+                            class=" text-[#7772F1] border-[#7772F1] border-2 h-10 py-3 w-36 flex justify-center rounded-md items-center">Apply
+                            now
+                        </button>
+                    </div>
+                    <div class="pt-5">
+                        <button
+                            class=" text-[#7772F1] border-[#7772F1] border-2 h-10 py-3 w-36 flex justify-center rounded-md items-center">Apply
+                            now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lg:py-20  px-24">
+        <div class="flex justify-center gap-10 lg:gap-[150px]">
+            <div class=" hidden lg:block lg:pl-20">
+                <p class="text-[35px]  font-bold">Didn’t find what you <br> were looking for?</p>
+                <p class="  text-gray-500 pt-5">Send your CV or subscribe to our newsletter to receive
+                    <br> information
+                    about
+                    new vacancies.
+                </p>
+            </div>
+            <div class="">
+                <form class="flex flex-col pb-10">
+                    <div class="flex flex-col lg:flex-row  pl-5 gap-6 mt-5">
+                        <div class="">
+                            <label for="w1">Name* </label> <br>
+                            <input type="text" id="w1" placeholder="Your name" class="p-4 bg-[#F4F5F6] rounded-lg">
+                        </div>
+                        <div class="">
+                            <label for="w1">Phone* </label> <br>
+                            <input type="text" id="w1" placeholder="Your phone number "
+                                class="p-4 bg-[#F4F5F6] rounded-lg">
+                        </div>
+
+                    </div>
+                    <div class="flex flex-col lg:flex-row pl-5 gap-6 mt-5">
+                        <div class="">
+                            <label for="w1">Email </label> <br>
+                            <input type="text" id="w1" placeholder="Your working email"
+                                class="p-4 bg-[#F4F5F6] rounded-lg">
+                        </div>
+                        <div class="">
+                            <label for="w1">I am interested in* </label> <br>
+                            <input type="text" id="w1" placeholder="Choose... " class="p-4 bg-[#F4F5F6] rounded-lg">
+                        </div>
+                    </div>
+                    <div class="mt-5 pl-5">
+                        <label for="w1">Cover letter</label> <br>
+                        <textarea name="" id="" placeholder="Your cover letter"
+                            class="border-2 w-[300px] lg:w-[470px] h-[200px] bg-[#F4F5F6]"></textarea>
+                    </div>
+                    <div class="flex mt-5 gap-1 pl-5 py-5">
+                        <img src="./img/r63.png" alt="">
+                        <p>Attach your CV*</p>
+                    </div>
+                    <div class="flex pl-5 gap-3">
+                        <input type="checkbox" placeholder="">
+                        <p>I want to suscribe to receive information about new vacancies.</p>
+                    </div>
+                    <div class="pt-5 pl-5">
+                        <button
+                            class=" text-[#ffffff] font-bold bg-[#7772F1] border-[#7772F1] border-2 h-10  px-16  flex justify-center rounded-md items-center">Send
+                            Resume
+
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#1E212C]  pt-10">
+        <div class="flex flex-col items-center lg:flex-row lg:justify-center gap-8">
+            <div class="flex flex-col items-start gap-3 p-10">
+                <img src="./img/r3.png" alt="">
+                <P style=" color: gray; font-size: 13px;">Createx SEO Agency is a full-service digital marketing
+                    <br>
+                    agency. We help businesses make more money <br>
+                    through a wealth of performance data and market research. <br>
+                    We create science-based SEO strategies to empower our <br> clients.
+                </P>
+                <div class="flex items-center gap-4">
+                    <img src="./img/r40.png" alt="">
+                    <img src="./img/r41.png" alt="">
+                    <img src="./img/r42.png" alt="">
+                    <img src="./img/r43.png" alt="">
+                </div>
+            </div>
+            <div>
+                <p style="font-size: 17px; color: white;">COMPANY</p>
+                <p style="color: gray; font-size: 15px;">About Us</p>
+                <p style="color: gray; font-size: 15px;">Case Studies</p>
+                <p style="color: gray; font-size: 15px;">Blog</p>
+                <p style="color: gray; font-size: 15px;">Careers</p>
+                <p style="color: gray; font-size: 15px;">Contacts</p>
+            </div>
+            <div>
+                <p style="font-size: 17px; color: white;">SERVICES</p>
+                <p style="color: gray; font-size: 15px;">Social Media</p>
+                <p style="color: gray; font-size: 15px;">SEO</p>
+                <p style="color: gray; font-size: 15px;">Research</p>
+                <p style="color: gray; font-size: 15px;">Payed Traffic</p>
+                <p style="color: gray; font-size: 15px;">Payed Traffic</p>
+            </div>
+            <div>
+                <p style="font-size: 17px; color: white;">CONTACT US</p>
+                <div class="flex items-center gap-1">
+                    <img src="./img/r44.png" alt="">
+                    <p style="color: gray; font-size: 15px;">(405) 555-0128</p>
+                </div>
+                <div class="flex items-center gap-1">
+                    <img src="./img/r45.png" alt="">
+                    <p style="color: gray; font-size: 15px;">hello@createx.com</p>
+                </div>
+            </div>
+            <div>
+                <p style="font-size: 17px; color: white;">SIGN UP TO OUR NEWSLETTER</p>
+                <div class="flex items-center gap-4 bg-[#FFFFFF33] w-52">
+                    <input type="text" name="" id="" class="bg-[#FFFFFF33]">
+                    <img src="./img/r46.png" alt="">
+                </div>
+                <p style="font-size: 15px; color: gray;">*Subscribe to our newsletter to receive communications and
+                    early <br> updates from Createx SEO Agency.</p>
+            </div>
+
+
+        </div>
+        <div style="padding-top: 20px;">
+            <img src="./img/r47.png" alt="">
+            <div class="flex justify-around gap-20" style="padding-top: 20px;">
+                <div class="flex flex-col items-center justify-center lg:flex-row gap-2 ">
+                    <img src="./img/r52.png" alt="">
+                    <img src="./img/r51.png" alt="">
+                    <img src="./img/r48.png" alt="">
+                    <img src="./img/r50.png" alt="">
+                </div>
+                <div class="flex gap-2">
+                    <p style="color: white;">GO TO TOP</p>
+                    <img src="./img/r53.png" alt="" class="hidden lg:block">
+                </div>
+            </div>
+        </div>
+        <div class="flex text-[white] pl-10 items-center gap-5 lg:pl-[120px] bg-[#292C37] mt-7 p-3 ">
+            <p>© All rights reserved.Made with</p>
+            <img src="./img/r54.png" alt="">
+            <p>by Createx Studio </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
