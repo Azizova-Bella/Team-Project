@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Page_1</title>
+</head>
+
+<body>
+    <navbar>
+        <div class="bg-custom-pattern bg-cover w-[100%] h-[900px] ">
+
+            <div class="flex items-center justify-center sm:gap-52 md:gap-52">
+                <div class="flex sm:gap-10 md:gap-10 gap-5git text-[gray] h-20 items-center justify-center">
+                    <img src="./img/mlogo.png" alt="">
+                    <select name="" id="pageSelector" class="bg-[#1E212C] text-[gray]" onchange="navigateToPage()">
+                        <option value="" disabled selected>Services</option>
+                        <option value="homepage.html">Page 1</option>
+                        <option value="index2.html">Page 2</option>
+                        <option value="page3.html">Page 3</option>
+                        <option value="page4.html">Page 4</option>
+                        <option value="page5.html">Page 5</option>
+                        <option value="aboutus.html">Page 6</option>
+                        <option value="page6.html">Page 7</option>
+                        <option value="page8.html">Page 8</option>
+                        <option value="page9.html">Page 9</option>
+                        <option value="page10.html">Page 10</option>
+                    </select>
+                    <script>
+                        function navigateToPage() {
+                            const selector = document.getElementById('pageSelector');
+                            const selectedPage = selector.value;
+                            if (selectedPage) {
+                                window.location.href = selectedPage;
+                            }
+                        }
+                    </script>
+                    <p class="hidden sm:block md:block">Case Studies</p>
+                    <p class="hidden sm:block md:block">About Us</p>
+                    <p class="hidden sm:block md:block">Blog</p>
+                    <p class="hidden sm:block md:block">Contacts</p>
+                </div>
+                <div class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center items-center">
+                    <p>Talk to a human</p>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-center mt-14">
+                <div class="flex flex-col  gap-16 md:gap-20 text-center md:text-left pt-10">
+                    <div>
+                        <p class="text-4xl sm:text-5xl font-semibold text-white">
+                            Best <span class="text-[#7772F1]">SEO & Marketing</span> <br> Solutions for You
+                        </p>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-center gap-10 md:gap-14">
+                        <p
+                            class="border border-gray-200  sm:w-44 w-44 h-10 text-white flex justify-center items-center">
+                            Get a free analysis
+                        </p>
+                        <div class="flex items-center gap-2">
+                            <img src="./img/mhover1.png" alt="" class="w-8 h-8 sm:w-10 sm:h-10">
+                            <p class="text-white">Play video</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-10 md:mt-0">
+                    <img src="./img/millustration (1).png" alt="" class="w-full sm:w-64 md:w-auto">
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-20 mt-10 p-3">
+
+                <div class="flex gap-3 items-center justify-center">
+                    <img src="./img/mic-chart.png" alt="">
+                    <p class="text-white text-[12px] sm:text-[12px] md:text-[14px] lg:text-[14px] hidden lg:block">SEO
+                        Content Strategy</p>
+                </div>
+                <div>
+                    <img src="./img/mdivider (1).png" alt="" class="hidden sm:block">
+                </div>
+                <div class="flex gap-3 items-center justify-center">
+                    <img src="./img/mic-speaker.png" alt="">
+                    <p class="text-white text-[12px] sm:text-[12px] md:text-[14px] lg:text-[14px] hidden lg:block">
+                        Content Marketing</p>
+                </div>
+                <div>
+                    <img src="./img/mdivider (1).png" alt="" class="hidden sm:block">
+                </div>
+
+                <div class="flex gap-3 items-center justify-center">
+                    <img src="./img/mic-computer.png" alt="">
+                    <p class="text-white text-[12px] sm:text-[12px] md:text-[14px] lg:text-[14px] hidden lg:block">
+                        Website & Social Media Marketing</p>
+                </div>
+            </div>
+        </div>
+    </navbar>
+    <header>
+        <div class="flex sm:flex-row flex-col items-center justify-center gap-10 p-3 sm:gap-16 mt-12">
+            <div>
+                <p style="font-weight: 500; font-size: 20px;">Createx SEO Agency is a full-service digital <br>
+                    marketing agency. We help businesses make more <br>
+                    money through a wealth of performance data and <br>
+                    market research. We create science-based SEO <br> strategies to empower our clients.</p>
+            </div>
+            <div class="sm:flex items-center gap-10 ">
+                <div class="flex flex-col justify-center gap-4 sm:gap-4">
+                    <div class="flex items-center gap-2">
+                        <img src="./img/mimage (21).png" alt="">
+                        <p style="font-size: 12px; color: gray;">Top SEO Companies <br> 2020 by Clutch</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="./img/mimage (22).png" alt="">
+                        <p style="font-size: 12px; color: gray;">Top Digital Marketing <br> Agency 2019 by <br> UpCity
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center gap-4 pt-4 sm:pt-0">
+                    <div class="flex items-center gap-2">
+                        <img src="./img/mimage (23).png" alt="">
+                        <p style="font-size: 12px; color: gray;">Official Member 2020 <br> by Forbes Agency <br> Council
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="./img/mimage (24).png" alt="">
+                        <p style="font-size: 12px; color: gray;">Top SEO Companies 2020 <br> by Top <br> Developers
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex sm:flex-row flex-col items-center justify-center gap-2 sm:gap-14 mt-10">
+            <img src="./img/mclient-logo.png" alt="">
+            <img src="./img/mHigher Fit Logo - Untitled Page.png" alt="">
+            <img src="./img/mclient-logo (1).png" alt="">
+            <img src="./img/mclient-logo (2).png" alt="">
+            <img src="./img/mclient-logo (3).png" alt="">
+            <img src="./img/mclient-logo (4).png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="bg-pattern bg-cover w-[100%] h-[500px] ">
+            <div class="flex-col sm:flex sm:flex-row justify-center pt-20 gap-36 p-3">
+                <div class="flex flex-col gap-5 items-center sm:flex-col sm:items-start">
+                    <p style="font-size: 30px; font-weight: 700;">Createx Agency </p>
+                    <p style="font-size: 15px; color: gray;">Lacus ac mollis vitae viverra. Tincidunt est, feugiat <br>
+                        montes, viverra ullamcorper mi dui, nulla pharetra. <br>
+                        Sapien urna nullam elit diam mauris orci. Volutpat <br>
+                        quam tempus justo, aliquam. Tortor ultrices mattis <br>
+                        eget orci eu nisi sed augue odio. Et senectus risus, <br>
+                        pharetra, tristique libero. Dolor risus ac quam <br>
+                        dictum mattis ultrices laoreet sapien. Feugiat <br>
+                        lacus, suscipit eu sociis et quis hendrerit. <br> Cras at ac magna ultricies orci.</p> <br>
+                    <p class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center items-center rounded">More about
+                        us
+                    </p>
+                </div>
+                <div class="pt-5">
+                    <img src="./img/mimage (25).png" alt="" style="width: 500px;">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-wrap justify-center gap-10 mt-96 sm:mt-10 mb-10">
+            <div class="flex flex-col items-center text-center">
+                <img src="./img/mcircle-progress.png" alt="">
+                <p class="text-sm mt-2 text-[gray]">Years of experience</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img src="./img/mcircle-progress (1).png" alt="">
+                <p class="text-sm mt-2 text-[gray]">Awards</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img src="./img/mcircle-progress (2).png" alt="">
+                <p class="text-sm mt-2 text-[gray]">Projects</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img src="./img/mcircle-progress (3).png" alt="">
+                <p class="text-sm mt-2 text-[gray]">100% Happy clients</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div class="text-[30px] font-bold justify-center flex">
+                    <p>Our services</p>
+                </div>
+                <div>
+                    <div class="sm:flex justify-center items-center gap-5 sm:gap-[135px] pt-8 text-[gray]">
+                        <div class="flex sm:gap-[135px] gap-5 justify-center">
+                            <p
+                                style="border: 1px solid gray; width: 140px; height: 30px; text-align: center; padding-top: 4px;">
+                                Social Media</p>
+                            <p>SEO</p>
+                            <p>Research</p>
+                        </div>
+                        <div class="flex sm:gap-[135px] gap-5 justify-center">
+                            <p>Content & PR</p>
+                            <p>Payed Traffic</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row justify-center items-center sm:gap-20 gap-10 pt-10 p-3">
+                    <div class="flex flex-col justify-center gap-3 ">
+                        <p style="font-size: 22px; font-weight: 500;">Complete Worflow For Any <br> SEO Professional</p>
+                        <div class="flex items-center gap-2">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="color: gray; font-size: 14px;">Aenean enim tellus morbi nisl vulputate dictumst.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="color: gray; font-size: 14px;">Nibh sapien volutpat lacus augue.</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="color: gray; font-size: 14px;">Vel in amet, placerat adipiscing est pharetra.</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="color: gray; font-size: 14px;">Gravida ornare sit in et ut sit sem id.</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="color: gray; font-size: 14px;">Ultrices pellentesque dictum enim egestas ac diam.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="color: gray; font-size: 14px;">Sit semper enim senectus integer ut turpis et.</p>
+                        </div> <br>
+                        <div class="flex items-center gap-10">
+                            <div>
+                                <p
+                                    class="border border-[#7772F1]  sm:w-42 w-36 h-10 text-[#7772F1] flex justify-center items-center">
+                                    Learn more
+                                </p>
+                            </div>
+                            <div>
+                                <p class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center items-center rounded">
+                                    Try
+                                    SEO toolkit
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/millustration (2).png" alt="" style="width: 500px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#1E212C] sm:flex justify-center items-center gap-8 pt-24 pb-10">
+            <div>
+                <img src="./img/millustration (3).png" alt="">
+            </div>
+            <div class="flex flex-col gap-10 ">
+                <p style="font-size: 25px; color: white;">Get a Free SEO Analysis!</p>
+                <div class="flex flex-col gap-8"> <br>
+                    <div>
+                        <input type="text"
+                            style="width: 240px; height: 40px; background-color: #FFFFFF1F; border-radius: 5px;">
+                        <input type="text"
+                            style="width: 240px; height: 40px; background-color: #FFFFFF1F; border-radius: 5px;">
+                    </div> <br>
+                    <div>
+                        <div>
+                            <input type="text"
+                                style="width: 485px; height: 40px; background-color: #FFFFFF1F; border-radius: 5px;">
+                        </div>
+                    </div> <br>
+                    <div class="flex items-center gap-10">
+                        <div class="flex gap-2 items-center">
+                            <img src="./img/mchecked.png" alt="">
+                            <p style="color: white; font-size: 14px;">I agree to receive communications from <br>
+                                Createx SEO Agency</p>
+                        </div>
+                        <p
+                            class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center items-center rounded text-[13px]">
+                            Try
+                            SEO toolkit
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sm:flex  justify-center pt-20 p-3">
+            <div class="flex flex-col gap-[25px]">
+                <p style="font-size: 25px; font-weight: 500;">Freequently Ask Questions</p>
+                <div class="flex items-center gap-5">
+                    <img src="./img/mMinus.png" alt="">
+                    <p style="font-weight: 500;">Aliquet lectus urna viverra in odio?</p>
+                </div>
+                <p style="font-size: 14px; color: gray;">Adipiscing nunc arcu enim elit mattis eu placerat proin.
+                    Imperdiet elementum <br>
+                    faucibus dignissim purus. Fusce parturient diam magna ullamcorper morbi <br> semper massa ac
+                    facilisis.</p>
+                <div class="flex items-center gap-5">
+                    <img src="./img/mPlus.png" alt="">
+                    <p style="font-weight: 500;">Orci commodo, viverra orci mollis ut euismod?</p>
+                </div>
+                <div class="flex items-center gap-5">
+                    <img src="./img/mPlus.png" alt="">
+                    <p style="font-weight: 500;">Sagittis vitae facilisi rutrum amet mauris quisque vel convallis?</p>
+                </div>
+                <div class="flex items-center gap-5">
+                    <img src="./img/mPlus.png" alt="">
+                    <p style="font-weight: 500;">In id dolor quis nunc, urna hendrerit pharetra?</p>
+                </div>
+                <div>
+                    <p class="bg-[#7772F1] text-[white] h-10 w-36 flex justify-center items-center rounded text-[13px]">
+                        Discover more
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img src="./img/millustration (4).png" alt="">
+            </div>
+        </div>
+        <div class="pt-20">
+            <div>
+                <div class="flex flex-col sm:flex-row  justify-center items-center gap-32 flex=-col text-center ">
+                    <p style="font-size: 30px; font-weight: 500;">Read our clients' case studies</p>
+                    <img src="./img/mhover.png" alt="" class="flex items-center">
+                </div>
+            </div>
+            <div class="flex flex-col sm:flex-row items-center justify-center w-auto pt-20">
+                <img src="./img/mcase-card.png" alt="" style="width: 400px;">
+                <img src="./img/mhover2.png" alt="" style="width: 400px;">
+                <img src="./img/mcase-card (1).png" alt="" style="width: 400px;">
+            </div>
+        </div>
+        <div>
+            <div class="flex justify-center">
+                <p style="font-size: 30px; font-weight: 500;">Our benefits</p>
+            </div>
+            <div class="flex flex-col sm:flex-row items-center justify-center pt-10">
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <img src="./img/mcard1.png" alt="" style="width: 350px;">
+                    <img src="./img/mcard2.png" alt="" style="width: 450px;">
+                    <img src="./img/mcard3.png" alt="" style="width: 350px;" class="mt-[-120px]">
+                </div>
+                <div>
+                    <img src="./img/millustration.png" alt="" style="width: 300px;">
+                </div>
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <img src="./img/mcard4.png" alt="" style="width: 350px;">
+                    <img src="./img/mcard5.png" alt="" style="width: 350px;">
+                    <img src="./img/mcard6.png" alt="" style="width: 350px;">
+                </div>
+            </div>
+        </div>
+        <div class="mt-16">
+            <p style="font-size: 35px; font-weight: 600; text-align: center;">Flexible pricing plans</p>
+            <div class="flex justify-center items-center pt-14">
+                <div class="bg-[#7772F1] w-[190px] h-10 flex justify-center items-center text-[white] rounded-3xl">
+                    <p>Monthly</p>
+                </div>
+                <div
+                    class="border border-[#7772F1] w-[190px] h-10 flex justify-center items-center rounded-3xl ml-[-25px]">
+                    <p>Yearly
+                        -12% Off</p>
+                </div>
+
+            </div>
+            <div
+                class="pt-20 flex flex-col items-center sm:flex sm:flex-row justify-center sm:items-center gap-3 h-1100">
+                <div class="border border-gray-150 w-[350px] flex h-[420px] flex-col items-center p-4">
+                    <div class="flex flex-col justify-center items-center gap-1">
+                        <p style="font-size: 28px; font-weight: 500;">Basic</p>
+                        <p style="font-size: 40px; color: #7772F1; font-weight: 700;" class="flex items-start">$24 <span
+                                style="font-size: 25px; font-weight: 700;">/mon</span></p>
+                        <img src="./img/mdivider.png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-3 items-start pt-5">
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="font-size: 15px;">Advanced Analytics</p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="font-size: 15px;"> Corporate Finance </p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="font-size: 15px;"> One Way Link Building </p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="font-size: 15px;">Social Media Marketing </p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="font-size: 15px; color: gray;"> Strategy & Marketing </p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="font-size: 15px; color: gray;"> Information Technology</p>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <button
+                                class="flex justify-center border border-[#7772F1] w-[120px] h-10 items-center text-[#7772F1] rounded">Choose
+                                plan</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="border border-gray-150 w-[350px] flex h-[420px] flex-col items-center p-5 bg-[#1E212C] rounded-md">
+                    <div class="flex flex-col justify-center items-center gap-3">
+
+                        <p><span style="font-size: 25px; font-weight: 700; color: #03CEA4;">/mon</span></p>
+                        <img src="./img/mdivider.png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-3 items-start pt-5">
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark1.png" alt="">
+                            <p style="font-size: 15px;  color: white;">Advanced Analytics</p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark1.png" alt="">
+                            <p style="font-size: 15px;  color: white;"> Corporate Finance </p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark1.png" alt="">
+                            <p style="font-size: 15px;  color: white;"> One Way Link Building </p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark1.png" alt="">
+                            <p style="font-size: 15px;  color: white;">Social Media Marketing </p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark1.png" alt="">
+                            <p style="font-size: 15px; color: white;"> Strategy & Marketing </p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mCross.png" alt="">
+                            <p style="font-size: 15px; color: gray;"> Information Technology</p>
+                        </div>
+                        <div class="flex items-center justify-center pt-10">
+                            <button
+                                class="flex justify-center border border-[#7772F1] w-[120px] h-10 items-center bg-[#7772F1] text-[white] rounded">Choose
+                                plan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-gray-150 w-[350px] flex h-[420px] flex-col items-center p-5">
+                    <div class="flex flex-col justify-center items-center gap-3">
+
+                        <p><span style="font-size: 25px; font-weight: 700;">/mon</span></p>
+                        <img src="./img/mdivider.png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-3 items-start pt-5">
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="font-size: 15px;">Advanced Analytics</p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="font-size: 15px;"> Corporate Finance </p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="font-size: 15px;"> One Way Link Building </p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="font-size: 15px;">Social Media Marketing </p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="font-size: 15px;  "> Strategy & Marketing </p>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <img src="./img/mMark.png" alt="">
+                            <p style="font-size: 15px;  "> Information Technology</p>
+                        </div>
+                        <div class="flex items-center justify-center pt-10">
+                            <button
+                                class="flex justify-center border border-[#7772F1] w-[120px] h-10 items-center text-[#7772F1] rounded">Choose
+                                plan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .bg1 {
+                background-image: url(./img/mVector.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 500px;
+            }
+        </style>
+        <div class="bg1">
+            <div class="flex justify-center mt-16">
+                <p style="font-size: 35px; font-weight: 600;">What our clients say</p>
+            </div>
+            <div class="flex flex-col items-center gap-5 sm:flex-row sm:justify-center sm:items-center sm:gap-32"
+                style="padding-top: 100px;">
+                <div>
+                    <img src="./img/mprev-btn.png" alt="">
+                </div>
+                <div>
+                    <div class="border border-gray-250 w-auto bg-[white]">
+                        <div class="flex flex-col items-center gap-5 mt-10 p-3 sm:flex-row sm:justify-center">
+                            <img src="./img/mbraces.png" alt="" style="padding-bottom: 90px;">
+                            <p style="color: gray; font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Justo, amet lectus quam <br>
+                                viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis
+                                <br>
+                                tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar
+                                <br>
+                                neque pharetra arcu diam maecenas diam integer in.
+                            </p>
+                        </div>
+                        <div class="flex gap-3 items-center p-3">
+                            <img src="./img/mimage.png" alt="" style="padding-left: 45px;">
+                            <div>
+                                <p style="font-weight: 500;">Courtney Alexander</p>
+                                <p style="color: gray; font-size: 14px;">Position, Company name</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/mhover3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col sm:flex-row sm:justify-center gap-5 mt-52 p-3  ">
+            <div class="flex flex-col gap-5 items-center justify-center">
+                <p style="font-size: 30px;">Latest news</p>
+                <p style="color: gray; font-size: 15px;">Check more posts in our blog for <br> featured news and
+                    advertising <br> insights</p>
+                <p
+                    style="background-color: #7772F1; width: 120px; color: white; height: 30px; border-radius: 5px; text-align: center; padding-top: 4px;">
+                    Go to blog</p>
+            </div> <br>
+            <div class="flex items-start gap-5 justify-center">
+                <div>
+                    <img src="./img/mpic.png" alt="">
+                    <div class="flex items-center gap-4 text-[gray]">
+                        <p>SEO</p>
+                        <img src="./img/mdivider5.png" alt="">
+                        <img src="./img/mClock.png" alt="">
+                        <p>July 5, 2020</p>
+                        <img src="./img/mdivider5.png" alt="">
+                        <img src="./img/mProfile.png" alt="">
+                        <p>By Diane Mccoy</p>
+                    </div> <br> <br> <br> <br>
+                    <div>
+                        <img src="./img/mread-more.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-start gap-5 justify-center">
+                <div class="flex flex-col items-start ">
+                    <img src="./img/mpic1.png" alt="">
+                    <div class="flex items-center gap-3 text-[gray]">
+                        <p>Marketing</p>
+                        <img src="./img/mdivider5.png" alt="">
+                        <img src="./img/mClock.png" alt="">
+                        <p>July 2, 2020</p>
+                        <img src="./img/mdivider5.png" alt="">
+                        <img src="./img/mProfile.png" alt="">
+                        <p>By Diane Mccoy</p>
+                    </div> <br>
+                    <div class="flex flex-col items-start gap-5 justify-center">
+                        <p style="font-weight: 500; ">The Basics of Blogging Search Engine <br> Optimization.</p>
+                        <p style="font-size: 15px; color: gray;">Mauris tincidunt sollicitudin tristique odio eget <br>
+                            volutpat. Fringilla viverra amet, mi interdum blandit...</p>
+                        <img src="./img/mread-more.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-[#1E212C] pt-10">
+            <div class="flex flex-col items-start justify-center gap-8 p-3 sm:flex-row ">
+                <div class="flex flex-col items-start gap-3 p-10">
+                    <img src="./img/mlogo.png" alt="">
+                    <P style=" color: gray; font-size: 13px;">Createx SEO Agency is a full-service digital marketing
+                        <br>
+                        agency. We help businesses make more money <br>
+                        through a wealth of performance data and market research. <br>
+                        We create science-based SEO strategies to empower our <br> clients.</P>
+                    <div class="flex items-center gap-4">
+                        <img src="./img/mFacebook.png" alt="">
+                        <img src="./img/mLinked-In.png" alt="">
+                        <img src="./img/mTwitter.png" alt="">
+                        <img src="./img/mInstagram.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <p style="font-size: 17px; color: white;">COMPANY</p>
+                    <p style="color: gray; font-size: 15px;">About Us</p>
+                    <p style="color: gray; font-size: 15px;">Case Studies</p>
+                    <p style="color: gray; font-size: 15px;">Blog</p>
+                    <p style="color: gray; font-size: 15px;">Careers</p>
+                    <p style="color: gray; font-size: 15px;">Contacts</p>
+                </div>
+                <div>
+                    <p style="font-size: 17px; color: white;">SERVICES</p>
+                    <p style="color: gray; font-size: 15px;">Social Media</p>
+                    <p style="color: gray; font-size: 15px;">SEO</p>
+                    <p style="color: gray; font-size: 15px;">Research</p>
+                    <p style="color: gray; font-size: 15px;">Payed Traffic</p>
+                    <p style="color: gray; font-size: 15px;">Payed Traffic</p>
+                </div>
+                <div>
+                    <p style="font-size: 17px; color: white;">CONTACT US</p>
+                    <div class="flex items-center gap-1">
+                        <img src="./img/miPhone.png" alt="">
+                        <p style="color: gray; font-size: 15px;">(405) 555-0128</p>
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <img src="./img/mMail.png" alt="">
+                        <p style="color: gray; font-size: 15px;">hello@createx.com</p>
+                    </div>
+                </div>
+                <div>
+                    <p style="font-size: 17px; color: white;">SIGN UP TO OUR NEWSLETTER</p>
+                    <div class="flex items-center gap-4 bg-[#FFFFFF33] w-52">
+                        <input type="text" name="" id="" class="bg-[#FFFFFF33]">
+                        <img src="./img/mRight.png" alt="">
+                    </div>
+                    <p style="font-size: 15px; color: gray;">*Subscribe to our newsletter to receive communications and
+                        early <br> updates from Createx SEO Agency.</p>
+                </div>
+
+            </div>
+            <div style="padding-top: 20px;">
+                <img src="./img/mdivider22.png" alt="">
+                <div class="flex flex-col justify-center sm:gap-20 sm:flex p-3 sm:flex-row sm:items-center" style="padding-top: 20px;">
+                    <div class="flex flex-col items-start gap-2 p-3 sm:flex-row sm:items-center">
+                        <img src="./img/maward.png" alt="">
+                        <img src="./img/maward1.png" alt="">
+                        <img src="./img/maward2.png" alt="">
+                        <img src="./img/maward3.png" alt="">
+                    </div>
+                    <div class="flex gap-2">
+                        <p style="color: white;">GO TO TOP</p>
+                        <img src="./img/mup-btn.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flex text-[white] items-center bg-[#232121] p-10 h-10 justify-center">
+                <p>© All rights reserved.Made with</p>
+                <img src="./img/mHeart.png" alt="">
+                <p>by Createx Studio </p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
